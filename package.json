@@ -1,0 +1,30 @@
+{
+  "name": "yeapnetwork.net",
+  "version": "1.0.0",
+  "description": "Reseller Platform Control Panel",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "yeapnet"
+  },
+  "keywords": [
+    "yeapnet"
+  ],
+  "author": "Peter DHaiti",
+  "license": "ISC",
+  "devDependencies": {
+    "angular": "^1.6.1",
+    "bootstrap": "^3.3.7",
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}

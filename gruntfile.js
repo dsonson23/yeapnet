@@ -9,7 +9,7 @@ module.exports = function(grunt) {
       },
       build: {
         src: 'src/js/*.js',
-        dest: 'js/yeap.min.js'
+        dest: 'js/pd.yeap.min.js'
       },
       dev: {
         options: {
@@ -19,7 +19,8 @@ module.exports = function(grunt) {
           preserveComments: 'all'
         },
         src: 'src/js/*.js',
-        dest: 'js/pd.yeap.min.js'   
+        dest: 'js/pd.yeap.js' 
+        }  
       },
       sass: {
          dev: {
@@ -27,7 +28,7 @@ module.exports = function(grunt) {
              outputStyle: 'expanded'
           },
           files: {
-            'css/pd.yeap.css' : 'src/css/pd.yeap.scss'
+            'css/pd.yeap.css' : 'src/css/*.*'
           }
          },
          build: {
@@ -35,17 +36,17 @@ module.exports = function(grunt) {
              outputStyle: 'compressed'
           },
           files: {
-            'css/pd.yeap.min.css' : 'src/css/pd.yeap.scss'
+            'css/pd.yeap.min.css' : 'src/css/*.*'
           }
          }
       },
     watch: {
       js: {
-        files: ['src/js/*.js']
+        files: ['src/js/*.js'],
         tasks: ['uglify:dev']
       },
       css: {
-        files: ['src/css/*.scss']
+        files: ['src/css/*.scss'],
         tasks: ['sass:dev']
       }
     }
@@ -57,7 +58,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-sass');
 
   // Default task(s).
-  grunt.registerTask('default', ['uglify:dev']);
+  grunt.registerTask('default', ['uglify:dev','sass:dev']);
   grunt.registerTask('build', ['uglify:build']);
 
 };

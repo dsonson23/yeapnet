@@ -17,3 +17,12 @@ $(window).on("scroll touchmove", function() {
 				$('body').css('background', $("#my-account").attr("data-color"))
 		};
 });
+
+// Fullscreen Overlay Nav
+function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+}

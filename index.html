@@ -32,9 +32,21 @@
     <body>
 
         <!-- NAVBAR -->
-        <nav>
-        	
+        <nav class="navbar navbar-inverse navbar-default navbar-fixed-top">
+        	<div id="myNav" class="overlay">
+	           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				  <div class="overlay-content">
+				    <a href="#">About</a>
+				    <a href="#">Services</a>
+				    <a href="#">Clients</a>
+				    <a href="#">Contact</a>
+				  </div>
+			</div>
+			  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
         </nav>
+        
+
+
         <!-- HEADER VIDEO COVER-->
         <header>
          
@@ -42,7 +54,7 @@
 
         <!-- SECTIONS AND INJECTED VIEWS -->
         <!-- Section basic reseller -->
-        <section id="basic-reseller" data-color="#E74C3C">
+        <section id="basic-reseller" data-color="#16A085">
         	<div class="container">
 	        	<header>
 	        		<h1>Basic Reseller</h1>
@@ -62,7 +74,7 @@
         </section>
 
         <!-- Section pro reseller -->
-        <section id="pro-reseller" data-color="#18BC9C">
+        <section id="pro-reseller" data-color="#C0392B">
         	<div class="container-fluid">
 	        	<header>
 	        		<h1>Pro Reseller</h1>
@@ -102,7 +114,7 @@
         </section>
 
         <!-- Section basic my account -->
-        <section id="my-account" data-color="#E74C3C">
+        <section id="my-account" data-color="#E91E63">
         	<div class="container-fluid">
 	        	<header>
 	        		<h1>My Account</h1>

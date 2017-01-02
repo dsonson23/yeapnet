@@ -20,7 +20,7 @@ module.exports = function(grunt) {
         },
         src: 'src/js/*.js',
         dest: 'js/pd.yeap.js' 
-        }  
+        }
       },
       sass: {
          dev: {
@@ -28,7 +28,7 @@ module.exports = function(grunt) {
              outputStyle: 'expanded'
           },
           files: {
-            'css/pd.yeap.css' : 'src/css/*.*'
+            'css/pd.yeap.css' : 'src/css/*.css'
           }
          },
          build: {
@@ -36,7 +36,7 @@ module.exports = function(grunt) {
              outputStyle: 'compressed'
           },
           files: {
-            'css/pd.yeap.min.css' : 'src/css/*.*'
+            'css/pd.yeap.min.css' : 'src/css/*.css'
           }
          }
       },
@@ -46,8 +46,12 @@ module.exports = function(grunt) {
         tasks: ['uglify:dev']
       },
       css: {
-        files: ['src/css/*.scss'],
+        files: ['src/css/*.css'],
         tasks: ['sass:dev']
+      },
+      html: {
+        files: ['*.html'],
+        tasks: ['uglify:dev']
       }
     }
   });

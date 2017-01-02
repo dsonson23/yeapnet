@@ -59,6 +59,6 @@ module.exports = function(grunt) {
 
   // Default task(s).
   grunt.registerTask('default', ['uglify:dev','sass:dev']);
-  grunt.registerTask('build', ['uglify:build']);
+  grunt.registerTask('build', ['uglify:build','sass:build']);
 
 };

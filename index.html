@@ -29,18 +29,20 @@
 	    <script type="text/javascript" src="js/pd.yeap.js"></script>
     </head>
 
-    <body>
+    <body id="yeap-network">
 
         <!-- NAVBAR -->
         <nav class="navbar navbar-inverse navbar-default navbar-fixed-top">
         	<div id="myNav" class="overlay">
 	           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-				  <div class="overlay-content">
-				    <a href="#">About</a>
-				    <a href="#">Services</a>
-				    <a href="#">Clients</a>
-				    <a href="#">Contact</a>
-				  </div>
+				  <ul class="overlay-content">
+				    <li><a href="#yeap-network">Home</a></li>
+				    <li><a href="#basic-reseller">Basic Reseller</a></li>
+				    <li><a href="#pro-reseller">Pro Reseller</a></li>
+				    <li><a href="#support">Customer Support</a></li>
+				    <li><a href="#my-account">My Account</a></li>
+				    <li><a href="#contact">Contact us</a></li>
+				  </ul>
 			</div>
 			  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
         </nav>
@@ -113,7 +115,7 @@
         	<div class="clear"></div>
         </section>
 
-        <!-- Section basic my account -->
+        <!-- Section my account -->
         <section id="my-account" data-color="#E91E63">
         	<div class="container-fluid">
 	        	<header>
@@ -133,8 +135,30 @@
         	<div class="clear"></div>
         </section>
 
+        <!-- Section contact us -->
+        <section id="contact" data-color="#F88F18">
+        	<div class="container">
+	        	<header>
+	        		<h1>My Account</h1>
+	        		<hr class="">
+	        	</header>
+	        	<div class="row">
+		        	<article class="col-md-..">
+		        		<header>
+		        			<h3></h3>
+		        		</header>
+		        		<!-- angular templating -->
+            			<!-- this is where content will be injected -->
+		        	</article>
+	        	</div> <!-- End row -->
+        	</div> <!-- End container -->
+        	<div class="clear"></div>
+        </section>
+
         <!-- FOOTER-->
-        <footer>
+        <footer id="footer">
+        	
+        		<p>@ Yeap Network 2017, all right reserved, developed by <a href="http://dhaiti.pro/" target="-blank">Peter DHaiti</a></p>
         	
         </footer>
 

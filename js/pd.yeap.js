@@ -31849,6 +31849,9 @@ $(window).on("scroll touchmove", function() {
     if ($(document).scrollTop() > $("#my-account").position().top) {
         $("body").css("background", $("#my-account").attr("data-color"));
     }
+    if ($(document).scrollTop() > $("#contact").position().top) {
+        $("body").css("background", $("#contact").attr("data-color"));
+    }
 });
 
 // Fullscreen Overlay Nav

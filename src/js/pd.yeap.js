@@ -16,6 +16,10 @@ $(window).on("scroll touchmove", function() {
 
 				$('body').css('background', $("#my-account").attr("data-color"))
 		};
+		if ($(document).scrollTop() > $("#contact").position().top) {
+
+				$('body').css('background', $("#contact").attr("data-color"))
+		};
 });
 
 // Fullscreen Overlay Nav

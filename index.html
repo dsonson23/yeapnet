@@ -29,14 +29,14 @@
 	    <script type="text/javascript" src="js/pd.yeap.js"></script>
     </head>
 
-    <body id="yeap-network">
+    <body>
 
         <!-- NAVBAR -->
         <nav class="navbar navbar-inverse navbar-default navbar-fixed-top">
         	<div id="myNav" class="overlay">
 	           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 				  <ul class="overlay-content">
-				    <li><a href="#yeap-network">Home</a></li>
+				    <li><a href="#hd-background">Home</a></li>
 				    <li><a href="#basic-reseller">Basic Reseller</a></li>
 				    <li><a href="#pro-reseller">Pro Reseller</a></li>
 				    <li><a href="#support">Customer Support</a></li>
@@ -51,7 +51,19 @@
 
         <!-- HEADER VIDEO COVER-->
         <header>
-         
+         	<!-- Header Full Screen Video Background -->
+	        <video autoplay loop muted poster="video/screenshot.jpg" id="hd-background">
+				  <source src="video/yeap-header.mp4" type="video/mp4">
+				  <source src="video/yeap-header.ogg" type="video/ogg">
+			</video>
+			
+			  <article class="container">
+			    <div class="row hd-video-text">
+			      <div class="col-md-12 text-center">
+			        <h1>Yeap Network</h1>
+			      </div>
+			    </div>
+			  </article>
         </header>
 
         <!-- SECTIONS AND INJECTED VIEWS -->
@@ -99,7 +111,7 @@
         <section id="support" data-color="#3498DB">
         	<div class="container">
 	        	<header>
-	        		<h1>Customer Support</h1>
+	        		<h1>Support</h1>
 	        		<hr class="">
 	        	</header>
 	        	<div class="row">

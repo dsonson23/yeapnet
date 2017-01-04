@@ -1,4 +1,4 @@
-/*! yeapnetwork.net 2017-01-03 */
+/*! yeapnetwork.net 2017-01-04 */
 /**
  * @license AngularJS v1.6.1
  * (c) 2010-2016 Google, Inc. http://angularjs.org
@@ -31862,3 +31862,15 @@ function openNav() {
 function closeNav() {
     document.getElementById("myNav").style.height = "0%";
 }
+
+// Add smooth scrolling to the # links
+//jQuery for page scrolling feature - requires jQuery Easing plugin
+$(function() {
+    $("a").bind("click", function(event) {
+        var $anchor = $(this);
+        $("html, body").stop().animate({
+            scrollTop: $($anchor.attr("href")).offset().top
+        }, 1500, "easeInOutExpo");
+        event.preventDefault();
+    });
+});

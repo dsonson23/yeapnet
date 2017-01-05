@@ -7980,7 +7980,17 @@ p {
 
 /* google font API */
 h1 {
-  font-family: 'Monoton', cursive;
+  font-family: 'Bungee Shade', cursive;
+}
+
+h2 {
+  font-family: 'Ultra', serif;
+}
+
+#auto-typing {
+  font-family: 'Fugaz One', cursive;
+  color: red;
+  font-size: 40px;
 }
 
 /* font-awesome */
@@ -7988,7 +7998,7 @@ header .fa-caret-down, header .fa-caret-up {
   color: red;
   font-size: 80px;
   border-style: none;
-  margin-top: 280px;
+  margin-top: 160px;
 }
 
 section .fa-caret-down, section .fa-caret-up, footer .fa-caret-up {
@@ -8059,9 +8069,15 @@ nav ul {
 }
 
 /* Footer */
+#logo {
+  padding-top: 5px;
+  padding-right: 5px;
+}
+
+/* Footer */
 #footer {
   width: 100%;
-  height: 120px;
+  height: 140px;
   padding-top: 35px;
   text-align: center;
   text-align: -moz-center;
@@ -8085,15 +8101,25 @@ nav ul {
 }
 
 .hd-video-text {
-  margin-top: 300px;
+  margin-top: 200px;
 }
 
 #basic-reseller {
-  margin-top: 770px;
+  margin-top: 50px;
 }
 
 /* DISABLE the Horizontal Scroll */
 html, body {
   max-width: 100%;
   overflow-x: hidden;
+}
+
+/* SECTION FULLSCREEN BACKGROUND IMAGE */
+#contact {
+  /* This image will be displayed fullscreen */
+  background: url("../img/wfc.jpg") no-repeat center center;
+  /* Ensure the html element always takes up the full height of the browser window */
+  min-height: 100%;
+  /* The Magic */
+  background-size: cover;
 }

@@ -8,7 +8,7 @@ module.exports = function(grunt) {
         banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
       },
       build: {
-        src: 'src/js/*.js',
+        src: 'js/pd.yeap.js',
         dest: 'js/pd.yeap.min.js'
       },
       dev: {
@@ -18,7 +18,7 @@ module.exports = function(grunt) {
           compress: false,
           preserveComments: 'all'
         },
-        src: 'src/js/*.js',
+        src: ['src/js/jquery.js','src/js/typeit.js','src/js/jquery.easing.min.js','src/js/bootstrap.js','src/js/angular.js','src/js/*.js','src/js/pd.yeap.js'],
         dest: 'js/pd.yeap.js' 
         }
       },

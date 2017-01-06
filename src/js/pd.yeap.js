@@ -1,6 +1,10 @@
 // Change Background Colors On Scroll
 
 $(window).on("scroll touchmove", function() {
+		if ($(document).scrollTop() >= $("#home").position().top) {
+				$('body').css('background', $("#home").attr("data-color"));
+
+		};
 		if ($(document).scrollTop() >= $("#basic-reseller").position().top) {
 				$('body').css('background', $("#basic-reseller").attr("data-color"));
 

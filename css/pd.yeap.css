@@ -7996,11 +7996,6 @@ section {
   font-size: 2em;
 }
 
-/*p {
-  width: 50%;
-  font-size: 1.1em;
-  margin: 0 2em;
-}*/
 .clear {
   clear: both;
 }
@@ -8014,16 +8009,6 @@ section {
   color: #fff;
 }
 
-/*.hd-video-text {
-  margin: 0 auto;
-}*/
-/*.hd-video-text h1 { 
-  font-size: 3em;
-}
-
-.hd-video-text h2 { 
-  font-size: 2em;
-}*/
 /* font-awesome */
 header .fa-caret-down, header .fa-caret-up {
   color: red;
@@ -8125,9 +8110,8 @@ nav ul {
   background-size: cover;
 }
 
-#basic-reseller {
+#home {
   position: relative;
-  /*margin-top: 3em;*/
 }
 
 /* DISABLE the Horizontal Scroll */
@@ -8150,12 +8134,6 @@ html, body {
   .col-none992 {
     display: none;
   }
-  /*section {
-  padding: 100px 0;
-}*/
-  /*.text-right {
-  text-align: left;
-}*/
   .hd-video-text h1 {
     font-size: 4em;
   }

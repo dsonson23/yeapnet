@@ -28,10 +28,8 @@
 
 
 	    <!-- SPELLS -->
-	    <!-- load JS Files: on this 1 js file, I have shrunk angular-route, angular, bootstrap, jQuery and my js files  -->
-	    <script type="text/javascript" src="js/jquery.js"></script>
-	    <script type="text/javascript" src="js/typeit.js"></script>
-	    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>	    
+	    <!-- load JS Files: on this 1 js file, I have shrunk angular-route, angular, bootstrap, jQuery and my js files  
+	     -->	    
 	    <script type="text/javascript" src="js/pd.yeap.js"></script>
     </head>
 
@@ -42,7 +40,7 @@
         	<div id="myNav" class="overlay">
 	           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 				  <ul class="overlay-content">
-				    <li><a href="#hd-background">Home</a></li>
+				    <li><a href="#home">Home</a></li>
 				    <li><a href="#basic-reseller">Basic Reseller</a></li>
 				    <li><a href="#pro-reseller">Pro Reseller</a></li>
 				    <li><a href="#support">Customer Support</a></li>
@@ -86,7 +84,7 @@
 
 			      </div>
 			    <div class="row text-center">
-			    	<a href="#basic-reseller">
+			    	<a href="#home">
 			      		<div class="col-md-offset-11 fa fa-caret-down faa-bounce animated aria-hidden='true'"></div>
 			      	</a>
 			    </div>
@@ -94,11 +92,11 @@
         </header>
 
         <!-- SECTIONS AND INJECTED VIEWS -->
-        <!-- Section basic reseller 21ACBA -->
-        <section id="basic-reseller" data-color="#fff">
+        <!-- Section home 21ACBA -->
+        <section id="home" data-color="#fff">
         	<div class="container">
 	        	<header>
-	        		<h1>Basic Reseller</h1>
+	        		<h1>Home</h1>
 	        		<hr class="">
 	        	</header>
 	        	<div class="row">
@@ -118,6 +116,39 @@
 				      	</a>
 				    </div>
 				    <div class="col-md-offset-11 text-right">
+				    	<a class="text-right" href="#basic-reseller">
+				      		<div class="fa fa-caret-down aria-hidden='true'"></div>
+				      	</a>
+				    </div>
+			    </div> <!-- End font-awesome row -->
+        	</div> <!-- End container -->
+        	<div class="clear"></div>
+        </section>
+
+        <!-- Section basic reseller -->
+        <section id="basic-reseller" data-color="#C0392B">
+        	<div class="container-fluid">
+	        	<header>
+	        		<h1>Basic Reseller</h1>
+	        		<hr class="">
+	        	</header>
+	        	<div class="row">
+		        	<article class="col-md-..">
+		        		<header>
+		        			<h3></h3>
+		        		</header>
+		        		<!-- angular templating -->
+            			<!-- this is where content will be injected -->
+		        	</article>
+	        	</div> <!-- End row -->
+	        	<!-- Font-awesome carets -->
+	        	<div class="row text-left">
+	        		<div class="col-md-1 col-none992">
+				    	<a href="#basic-reseller">
+				      		<div class="fa fa-caret-up aria-hidden='true'"></div>
+				      	</a>
+				    </div>
+				    <div class="col-md-offset-11 text-center">
 				    	<a class="text-right" href="#pro-reseller">
 				      		<div class="fa fa-caret-down aria-hidden='true'"></div>
 				      	</a>
@@ -127,9 +158,10 @@
         	<div class="clear"></div>
         </section>
 
+
         <!-- Section pro reseller -->
-        <section id="pro-reseller" data-color="#C0392B">
-        	<div class="container-fluid">
+        <section id="pro-reseller" data-color="#fff">
+        	<div class="container">
 	        	<header>
 	        		<h1>Pro Reseller</h1>
 	        		<hr class="">
@@ -161,8 +193,8 @@
         </section>
 
         <!-- Section support 6A4A3C-->
-        <section id="support" data-color="#fff">
-        	<div class="container">
+        <section id="support" data-color="#C0392B">
+        	<div class="container-fluid">
 	        	<header>
 	        		<h1>Support</h1>
 	        		<hr class="">
@@ -194,8 +226,8 @@
         </section>
 
         <!-- Section my account -->
-        <section id="my-account" data-color="#CC333F">
-        	<div class="container-fluid">
+        <section id="my-account" data-color="#fff">
+        	<div class="container">
 	        	<header>
 	        		<h1>My Account</h1>
 	        		<hr class="">
@@ -228,7 +260,7 @@
 
         <!-- Section contact us -->
         <section id="contact" data-color="#F88F18">
-        	<div class="container">
+        	<div class="container-fluid">
 	        	<header>
 	        		<h1>Contact us</h1>
 	        		<hr class="">

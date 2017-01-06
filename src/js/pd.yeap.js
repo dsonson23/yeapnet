@@ -20,6 +20,10 @@ $(window).on("scroll touchmove", function() {
 
 				$('body').css('background', $("#contact").attr("data-color"))
 		};
+		if ($(document).scrollTop() > $("#footer").position().top) {
+
+				$('body').css('background', $("#footer").attr("data-color"))
+		};
 });
 
 // Fullscreen Overlay Nav

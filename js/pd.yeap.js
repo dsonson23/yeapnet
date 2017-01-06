@@ -1,4 +1,4 @@
-/*! yeapnetwork.net 2017-01-04 */
+/*! yeapnetwork.net 2017-01-06 */
 /**
  * @license AngularJS v1.6.1
  * (c) 2010-2016 Google, Inc. http://angularjs.org
@@ -31851,6 +31851,9 @@ $(window).on("scroll touchmove", function() {
     }
     if ($(document).scrollTop() > $("#contact").position().top) {
         $("body").css("background", $("#contact").attr("data-color"));
+    }
+    if ($(document).scrollTop() > $("#footer").position().top) {
+        $("body").css("background", $("#footer").attr("data-color"));
     }
 });
 

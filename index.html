@@ -52,30 +52,32 @@
 			</div>
 			<div class="container-fluid">
 				<div class="row">
-					  <span class="col-md-1" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-					<div class="col-md-offset-10 text-right" id="logo"><a href="http://yeapnetwork.net"><img class="img-rounded" src="img/logo.jpg"></a></div>
+					  <div class="col-xs-1"><span style="font-size:35px;color:#ff0000;cursor:pointer" onclick="openNav()">&#9776;</span>
+					  </div>
+					  <div class="col-md-offset-10 col-xs-offset-8 text-right" id="logo"><a href="http://yeapnetwork.net"><img class="img-rounded" src="img/logo.jpg"></a>
+					  </div>
 				</div>
 			</div>
         </nav>
 		      
         <!-- HEADER VIDEO COVER-->
-        <header>
+        <header id="video-header">
          	<!-- Header Full Screen Video Background -->
-	        <video autoplay loop muted poster="video/screenshot.jpg" id="hd-background">
+	        <video autoplay loop muted poster="img/screenshot.jpg" id="hd-background">
 				  <source src="video/yeap-header.mp4" type="video/mp4">
 				  <source src="video/yeap-header.ogg" type="video/ogg">
 			</video>
 			
 			  <article class="container-fluid">
-			    <div class="row hd-video-text">
-			      <div class="col-md-12 text-center">
+			    <div class="row">
+			      <div class="col-md-12 text-center hd-video-text">
 			        <h1>Yeap Network</h1>
 			        <h2>Hosting and App Services Business Opportunity</h2>
 			        <!-- Add typeit - a jQuery plugin that allows auto-typing texts -->
 			        <h3 id="auto-typing"></h3> 
 					<script type="text/javascript">
                    		$('#auto-typing').typeIt({
-						     strings: [".RELIABLE .SCALABLE .EFICIENT", ".SECURE .SUSTAINABLE", "YOU ARE A MOMENT AWAY TO BECOME A CERTIFIED HOSTING RESELLER"],
+						     strings: [".RELIABLE .SCALABLE .EFICIENT", ".SECURE .SUSTAINABLE", "YOU ARE A FEW CLICKS AWAY TO BECOME A CERTIFIED HOSTING RESELLER"],
 						     speed: 250,
 						     breakLines: false,
 						     loopDelay: 500
@@ -92,8 +94,8 @@
         </header>
 
         <!-- SECTIONS AND INJECTED VIEWS -->
-        <!-- Section basic reseller -->
-        <section id="basic-reseller" data-color="#16A085">
+        <!-- Section basic reseller 21ACBA -->
+        <section id="basic-reseller" data-color="#fff">
         	<div class="container">
 	        	<header>
 	        		<h1>Basic Reseller</h1>
@@ -110,7 +112,7 @@
 	        	</div> <!-- End row -->
 	        	<!-- Font-awesome carets -->
 	        	<div class="row text-left">
-	        		<div class="col-md-1">
+	        		<div class="col-md-1 col-none992">
 				    	<a href="#hd-background">
 				      		<div class="fa fa-caret-up aria-hidden='true'"></div>
 				      	</a>
@@ -143,7 +145,7 @@
 	        	</div> <!-- End row -->
 	        	<!-- Font-awesome carets -->
 	        	<div class="row text-left">
-	        		<div class="col-md-1">
+	        		<div class="col-md-1 col-none992">
 				    	<a href="#basic-reseller">
 				      		<div class="fa fa-caret-up aria-hidden='true'"></div>
 				      	</a>
@@ -158,8 +160,8 @@
         	<div class="clear"></div>
         </section>
 
-        <!-- Section support -->
-        <section id="support" data-color="#3498DB">
+        <!-- Section support 6A4A3C-->
+        <section id="support" data-color="#fff">
         	<div class="container">
 	        	<header>
 	        		<h1>Support</h1>
@@ -176,7 +178,7 @@
 	        	</div> <!-- End row -->
 	        	<!-- Font-awesome carets -->
 	        	<div class="row text-left">
-	        		<div class="col-md-1">
+	        		<div class="col-md-1 col-none992">
 				    	<a href="#pro-reseller">
 				      		<div class="fa fa-caret-up aria-hidden='true'"></div>
 				      	</a>
@@ -192,7 +194,7 @@
         </section>
 
         <!-- Section my account -->
-        <section id="my-account" data-color="#E91E63">
+        <section id="my-account" data-color="#CC333F">
         	<div class="container-fluid">
 	        	<header>
 	        		<h1>My Account</h1>
@@ -209,7 +211,7 @@
 	        	</div> <!-- End row -->
 	        	<!-- Font-awesome carets -->
 	        	<div class="row text-left">
-	        		<div class="col-md-1">
+	        		<div class="col-md-1 col-none992">
 				    	<a href="#support">
 				      		<div class="fa fa-caret-up aria-hidden='true'"></div>
 				      	</a>
@@ -242,7 +244,7 @@
 	        	</div> <!-- End row -->
 	        	<!-- Font-awesome carets -->
 	        	<div class="row text-left">
-	        		<div class="col-md-1">
+	        		<div class="col-md-1 col-none992">
 				    	<a href="#my-account">
 				      		<div class="fa fa-caret-up aria-hidden='true'"></div>
 				      	</a>
@@ -258,12 +260,16 @@
         </section>
 
         <!-- FOOTER-->
-        <footer id="footer">
+        <footer id="footer" data-color="#222222">
         	<article class="container-fluid">        		
-        		<p>@ Yeap Network 2017, all right reserved, developed by <a href="http://dhaiti.pro/" target="-blank">Peter DHaiti</a></p>
+        		<div class="row">
+	        		<div class="col-xs-12 text-center">
+	        			<p>@ Yeap Network 2017, all right reserved, developed by <a href="http://dhaiti.pro/" target="-blank">Peter DHaiti</a></p>
+	        		</div>
+        		</div>
         		<div class="row text-center">
 			    	<a href="#hd-background">
-			      		<div class="col-md-12 fa fa-caret-up faa-bounce animated aria-hidden='true'"></div>
+			      		<div class="col-xs-12 fa fa-caret-up faa-bounce animated aria-hidden='true'"></div>
 			      	</a>
 			    </div>
 			</article>       	

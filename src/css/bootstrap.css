@@ -6795,6 +6795,7 @@ section {
   font-size: 5em;
   font-weight: bolder;
   margin: 0 0.1em;
+  color: #FFF !important;
 }
 
 .hd-video-text h2 {
@@ -6822,7 +6823,7 @@ section {
 }
 
 .container-fluid h1 {
-  color: #fff;
+  color: #000;
 }
 
 /* font-awesome */
@@ -6837,6 +6838,10 @@ section .fa-caret-down, section .fa-caret-up, footer .fa-caret-up {
   color: red;
   font-size: 80px;
   border-style: none;
+}
+
+section > header {
+  background-color: #3D3D3E;
 }
 
 /* Fullscreen Overlay Nav */
@@ -6993,12 +6998,12 @@ html, body {
 #footer {
   text-align: center;
   text-align: -moz-center; 
-  background-color: #222222;
+  background-color: #000;
   height: 170px;
 }
 
 #footer p {
   width: 100%;
-  padding-top: 30px;
+  padding-top: 35px;
   margin: 0 auto;
 }

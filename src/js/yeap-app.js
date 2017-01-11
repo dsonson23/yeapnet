@@ -1,7 +1,7 @@
 var app = angular.module("yeapApp", ["ngRoute"]);
-app.config(function($routeProvider) {
+app.config(function($routeProvider, $locationProvider) {
     $routeProvider
-    
+    $locationProvider.html5Mode(true);
 
     .when("/home", {
         templateUrl : "home.html"
@@ -22,5 +22,8 @@ app.config(function($routeProvider) {
     })
     .when("/contact", {
         templateUrl : "contact.html"
+    })
+    .otherwise({
+        redirectTo: "route-index.html"
     });
 });

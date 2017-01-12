@@ -6773,11 +6773,15 @@ h2 {
 /* Change Background Colors On Scroll */
 body {
   background: #CC333F;
-  color: #EB6841;
+  /*color: #EB6841;*/
   font-family: 'Raleway', sans-serif;
   margin: 0 auto;
   transition: all 500ms;
   will-change: background;
+}
+
+.navbar-custom, .btn-info {
+    background-color: #1D6CCD;
 }
 
 section {
@@ -6810,6 +6814,10 @@ section {
   font-family: 'Fugaz One', cursive;
   color: red;
   font-size: 2em;
+}
+
+.btn-lg, .btn-group-lg > .btn {
+    line-height: 2.333;
 }
 
 .clear {
@@ -6852,8 +6860,8 @@ section > header {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.77);
+    background-color: rgb(29, 108, 205);
+    background-color: rgba(29,108,205, 0.77);
     overflow-y: hidden;
     transition: 0.5s;
 }
@@ -6870,7 +6878,7 @@ section > header {
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
-    color: #818181;
+    color: #FFF;
     display: block;
     transition: 0.3s;
 }

@@ -39,11 +39,11 @@
     <body ng-app="yeapApp">
 
         <!-- NAVBAR -->
-        <nav class="navbar navbar-inverse navbar-default navbar-fixed-top">
+        <nav class="navbar navbar-inverse navbar-default navbar-fixed-top navbar-custom">
         	<div id="myNav" class="overlay">
 	           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 				  <ul class="overlay-content">
-				  	<li><a href="#/"></a></li>
+				  	<li><a href="#video-header">Welcome</a></li>
 				    <li><a href="#home">Home</a></li>
 				    <li><a href="#basic-reseller">Basic Reseller</a></li>
 				    <li><a href="#pro-reseller">Pro Reseller</a></li>
@@ -54,19 +54,19 @@
 			</div>
 			<div class="container-fluid">
 				<div class="row">
-					  <div class="col-xs-1"><span style="font-size:35px;color:#ff0000;cursor:pointer" onclick="openNav()">&#9776;</span>
+					  <div class="col-xs-1"><span style="font-size:35px;color:#fff;cursor:pointer" onclick="openNav()">&#9776;</span>
 					  </div>
-					  <div class="col-md-offset-10 col-xs-offset-8 text-right" id="logo"><a href="http://yeapnetwork.net"><img class="img-rounded" src="img/logo.jpg"></a>
+
+					  <div class="col-md-offset-10 col-xs-offset-8 text-right" id="logo">
+					  		<a href="http://yeapnetwork.net"><img class="img-rounded" src="img/logo.jpg"></a>
 					  </div>
 				</div>
 			</div>
         </nav>
 		      
         <!-- HEADER VIDEO COVER-->
-        <!-- <script type="text/javascript" src="include/header.js"></script> -->
         <header id="video-header">
          	<div ng-include="'include/header.html'"></div>
-         	<!-- <header-directive></header-directive> -->
          	<div class="row text-center">
 			    	<a href="#home">
 			      		<div class="col-md-offset-11 fa fa-caret-down faa-bounce animated aria-hidden='true'"></div>
@@ -155,6 +155,8 @@
         <!-- Section my account -->
         <section id="my-account" data-color="#fff">
         	<div ng-include="'include/login.html'"></div>
+        	<div ng-include="'http://www.refsnesdata.no/angular_include.asp'"></div>
+
         	<!-- Font-awesome carets -->
 	        	<div class="row text-center">
 	        		<div class="col-md-1 col-none992">
@@ -201,4 +203,5 @@
         </footer>
 
     </body>
+    <script type="text/javascript" src="include/login.js"></script>
     </html>

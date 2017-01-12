@@ -18,7 +18,7 @@ module.exports = function(grunt) {
           compress: false,
           preserveComments: 'all'
         },
-        src: ['src/js/jquery.js','src/js/typeit.js','src/js/jquery.easing.min.js','src/js/bootstrap.js','src/js/*.js','src/js/pd.yeap.js'],
+        src: ['src/js/jquery.js','src/js/jquery.easing.1.3.js','src/js/typeit.js','src/js/bootstrap.js','src/js/pd.yeap.js'],
         dest: 'js/pd.yeap.js' 
         }
       },

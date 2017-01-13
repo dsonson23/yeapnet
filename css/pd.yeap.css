@@ -8127,6 +8127,10 @@ nav ul {
   position: relative;
 }
 
+.panel {
+  border: none;
+}
+
 /* DISABLE the Horizontal Scroll */
 html, body {
   max-width: 100%;

@@ -1,18 +1,13 @@
-<div class="container">
-	        	<header>
-	        		<h1>Home</h1>
-	        		<hr class="">
-	        	</header>
-	        	<div class="row">
-		        	<article class="col-md-..">
-		        		<header>
-		        			<h3></h3>
-		        		</header>
-		        		<!-- angular templating -->
-            			<!-- this is where content will be injected -->
-		        	</article>
-	        	</div> <!-- End row -->
-	        	
-			    </div> <!-- End font-awesome row -->
-        	</div> <!-- End container -->
-        	
+var app = angular.module('yeapApp', ["angular-scroll-animate"]);
+
+app.controller('homeCtrl', function($scope) {
+$scope.animateElementIn = function($el) {
+		$el.removeClass('not-visible');
+		$el.addClass('ng-animated ' + $scope.animation.current);
+	};
+
+	$scope.animateElementOut = function($el) {
+		$el.addClass('not-visible');
+		$el.removeClass('ng-animated ' + $scope.animation.current);
+	};    
+});

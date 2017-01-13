@@ -8181,6 +8181,15 @@ html, body {
   }
 }
 
+/*angularjs animation*/
+.not-visible {
+  visibility: hidden;
+}
+
+body.lock-scroll {
+  overflow: hidden;
+}
+
 /* Footer */
 #footer {
   text-align: center;

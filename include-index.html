@@ -27,10 +27,11 @@
 	    <link rel="stylesheet" href="css/pd.yeap.css" />
 
 
-	    <!-- SPELLS -->
+	    <!-- SPELLS  -->
 	    <!-- load JS Files: on this 1 js file, I have shrunk angular-route, angular, bootstrap, jQuery and my js files  
 	     -->	    
 	    <script type="text/javascript" src="js/pd.yeap.js"></script>
+	    <script type="text/javascript" src="js/jquery-scroll-snap.js"></script> 
 	    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 	    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
 	    <script type="text/javascript" src="js/yeap-app.js"></script>  
@@ -76,7 +77,7 @@
 
         <!-- SECTIONS AND INJECTED VIEWS -->
         <!-- Section home 21ACBA -->
-        <section id="home" data-color="#fff">
+        <section id="home" class="snap" data-color="#fff">
         	<div ng-include="'include/home.html'"></div> <!-- end ng-include -->
         <div class="container">
         	<article class="row panel-group">
@@ -139,7 +140,7 @@
         </section>
 
         <!-- Section basic reseller -->
-        <section id="basic-reseller" data-color="#21ACBA">
+        <section id="basic-reseller" class="snap" data-color="#21ACBA">
         	<div ng-include="'include/basic-reseller.html'"></div>
         	<!-- Font-awesome carets -->
         	<div class="row text-center">
@@ -160,7 +161,7 @@
 
 
         <!-- Section pro reseller -->
-        <section id="pro-reseller" data-color="#fff">
+        <section id="pro-reseller" class="snap" data-color="#fff">
         	<div ng-include="'include/pro-reseller.html'"></div>
         	<!-- Font-awesome carets -->
 	        	<div class="row text-center">
@@ -179,7 +180,7 @@
         </section>
 
         <!-- Section support 6A4A3C-->
-        <section id="support" data-color="#C0392B">
+        <section id="support" class="snap" data-color="#C0392B">
         	<div ng-include="'include/support.html'"></div>
         	<!-- Font-awesome carets -->
 	        	<div class="row text-center">
@@ -198,7 +199,7 @@
         </section>
 
         <!-- Section my account -->
-        <section id="my-account" data-color="#fff">
+        <section id="my-account" class="snap" data-color="#fff">
         	<div ng-include="'include/login.html'"></div>
         	<div ng-include="'http://www.refsnesdata.no/angular_include.asp'"></div>
 
@@ -219,7 +220,7 @@
         </section>
 
         <!-- Section contact us -->
-        <section id="contact" data-color="#F88F18">
+        <section id="contact" class="snap" data-color="#F88F18">
         	<div ng-include="'include/contact.html'"></div>
         	<!-- Font-awesome carets -->
 	        	<div class="row text-center">
@@ -249,4 +250,5 @@
 
     </body>
     <script type="text/javascript" src="include/login.js"></script>
+    <!-- <script type="text/javascript" src="include/home.js"></script>  -->
     </html>

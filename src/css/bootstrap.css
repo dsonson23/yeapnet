@@ -6946,6 +6946,10 @@ nav ul{
   border: none;
 }
 
+.bg-panel-primary {
+  background-color: #ADD8E6;
+}
+
 /* DISABLE the Horizontal Scroll */
 html, body {
     max-width: 100%;

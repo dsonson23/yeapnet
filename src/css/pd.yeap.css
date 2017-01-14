@@ -1,33 +1,275 @@
+/*Google font api*/
+h1 {
+  font-family: 'Bungee Shade', cursive;
+}
+
+h2 {
+  font-family: 'Ultra', serif;
+  color: #fff;
+}
+
+.container h1, .container-fluid h1 {
+    font-size: 2em;
+}
+
 /* Change Background Colors On Scroll */
 body {
-  background: #16A085;
-  color: #fff;
+  background: #CC333F;
+  /*color: #EB6841;*/
   font-family: 'Raleway', sans-serif;
-  margin: 0;
+  margin: 0 auto;
   transition: all 500ms;
   will-change: background;
+}
+
+.navbar-custom, .btn-info {
+    background-color: #1D6CCD;
 }
 
 section {
   display: block;
   width: 100%;
   height: 100vh;
-  margin: 6em 0 0 0;
+  margin: 50px 0 0 0;
 }
 
-h1,h2 {
+section {
+  padding: 50px 0;
+}
+
+.hd-video-text h1 {
   font-size: 5em;
-  font-weight: 900;
+  font-weight: bolder;
   margin: 0 0.1em;
+  color: #FFF !important;
 }
 
-p {
-  width: 50%;
-  font-size: 1.1em;
-  margin: 0 2em;
+.hd-video-text h2 {
+  font-size: 3em;
+}
+
+.hd-video-text {
+  margin-top: 250px;
+}
+
+#auto-typing {
+  font-family: 'Fugaz One', cursive;
+  color: red;
+  font-size: 2em;
+}
+
+.btn-lg, .btn-group-lg > .btn {
+    line-height: 2.333;
 }
 
 .clear {
   clear: both;
 }
+ 
+ /* google font API */
 
+.container h1 {
+  color: red;
+}
+
+.container-fluid h1 {
+  color: #000;
+}
+
+/* font-awesome */
+header .fa-caret-down, header .fa-caret-up {
+  color: red;
+  font-size: 80px;
+  border-style: none;
+  margin-top: 2em;
+}
+
+section .fa-caret-down, section .fa-caret-up, footer .fa-caret-up {
+  color: red;
+  font-size: 80px;
+  border-style: none;
+}
+
+section > header {
+  background-color: #3D3D3E;
+}
+
+/* Fullscreen Overlay Nav */
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(29, 108, 205);
+    background-color: rgba(29,108,205, 0.77);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #FFF;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #16A085;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    color: red;
+}
+
+nav ul{
+    list-style-type: none;    
+}
+
+/* Logo */
+#logo {
+  padding-top: 5px;
+  padding-right: 5px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+
+
+/* <!-- Header Full Screen Video Background --> */
+#video-header{
+    position: relative;
+}
+
+#hd-background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(../img/data-center.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+#home {
+  position: relative;
+}
+
+.panel {
+  border: none;
+}
+
+.bg-panel-primary {
+  background-color: #ADD8E6;
+}
+
+/* DISABLE the Horizontal Scroll */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    }
+
+/* SECTION FULLSCREEN BACKGROUND IMAGE */
+    #contact{
+  /* This image will be displayed fullscreen */
+  background:url('../img/wfc.jpg') no-repeat center center;
+
+  /* Ensure the html element always takes up the full height of the browser window */
+  min-height:100%;
+
+  /* The Magic */
+  background-size:cover;
+}
+
+@media (max-width: 1024px) {
+ .col-none992 {
+    display: none;
+  }
+
+.hd-video-text h1 {
+  font-size: 4em;
+}
+
+.hd-video-text h2 {
+  font-size: 3em;
+}
+
+#auto-typing {
+  font-size: 2em;
+}
+
+#video-header fa {
+  margin-top: none;
+  }
+}
+
+@media (max-width: 480px) {
+ #logo {
+  position: absolute;
+  right: 5px;
+ }
+
+ .hd-video-text h1 {
+  font-size: 3em;
+}
+
+.hd-video-text h2 {
+  font-size: 2em;
+}
+
+#auto-typing {
+  font-size: 1.5em;
+}
+   }
+
+   /*angularjs animation*/
+   .not-visible {
+  visibility: hidden;
+}
+
+body.lock-scroll{
+  overflow: hidden;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+  text-align: -moz-center; 
+  background-color: #000;
+  height: 170px;
+}
+
+#footer p {
+  width: 100%;
+  padding-top: 35px;
+  margin: 0 auto;
+}

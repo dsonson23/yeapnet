@@ -8194,6 +8194,40 @@ body.lock-scroll {
   overflow: hidden;
 }
 
+/*Basic Background Parallax Effect With jQuery And CSS3 - parallax.js*/
+.parallax {
+  background: none;
+  min-height: 600px;
+  background-size: cover;
+  background-attachment: fixed;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  opacity: 0.70;
+  filter: alpha(opacity=50);
+}
+
+.content-support {
+  position: relative;
+}
+
+/*.bv-video {
+  position: absolute;
+  top:10px;
+  min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+  z-index: -200;
+  background-size: cover;
+
+}*/
+.content-support header, .content-support article {
+  position: absolute;
+  top: -600px;
+  z-index: 200;
+}
+
 /* Footer */
 #footer {
   text-align: center;

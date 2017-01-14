@@ -23,14 +23,18 @@
 	    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Fugaz+One|Ultra" rel="stylesheet">
 	    <link rel="stylesheet" type="text/css" href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
 		<link rel="stylesheet" type="text/css" href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.0.9/font-awesome-animation.min.css'>
-		
+		<!-- <link rel="stylesheet" type="text/css" href="css/animate.css"> -->
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
 	    <link rel="stylesheet" href="css/pd.yeap.css" />
+	    
 
 
 	    <!-- SPELLS  -->
 	    <!-- load JS Files: on this 1 js file, I have shrunk angular-route, angular, bootstrap, jQuery and my js files  
 	     -->	    
 	    <script type="text/javascript" src="js/pd.yeap.js"></script>
+	    <script type="text/javascript" src="js/parallax.js"></script>
+    <script type="text/javascript" src="js/backgroundVideo.js"></script>
 	    <script type="text/javascript" src="js/jquery-scroll-snap.js"></script> 
 	    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 	    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
@@ -80,7 +84,7 @@
         <section id="home" class="snap" data-color="#fff">
         	<div ng-include="'include/home.html'"></div> <!-- end ng-include -->
         <div class="container">
-        	<article class="row panel-group">
+        	<article class="row panel-group aniview reallyslow" av-animation="zoomIn">
 		        			<div class="col-sm-4 panel panel-danger">
 						      <div class="panel-heading">
 						      	<h3>Basic Reseller Plan</h3>
@@ -140,8 +144,9 @@
         </section>
 
         <!-- Section basic reseller -->
-        <section id="basic-reseller" class="snap" data-color="#21ACBA">
-        	<div ng-include="'include/basic-reseller.html'"></div>
+        <section id="basic-reseller" class="parallax snap" data-color="#21ACBA" data-img="img/data-center1.jpg">
+        <div ng-include="'include/basic-reseller.html'"></div>
+        	
         	<!-- Font-awesome carets -->
         	<div class="row text-center">
 	        		<div class="col-md-1 col-none992">
@@ -163,6 +168,7 @@
         <!-- Section pro reseller -->
         <section id="pro-reseller" class="snap" data-color="#fff">
         	<div ng-include="'include/pro-reseller.html'"></div>
+        	
         	<!-- Font-awesome carets -->
 	        	<div class="row text-center">
 	        		<div class="col-md-1 col-none992">
@@ -180,8 +186,11 @@
         </section>
 
         <!-- Section support 6A4A3C-->
-        <section id="support" class="snap" data-color="#C0392B">
+        <section id="support" class="snap">
+        <video class="bv-video"></video> 
+           <div class="content-support">
         	<div ng-include="'include/support.html'"></div>
+
         	<!-- Font-awesome carets -->
 	        	<div class="row text-center">
 	        		<div class="col-md-1 col-none992">
@@ -195,13 +204,14 @@
 				      	</a>
 				    </div>
 			    </div> <!-- End font-awesome row -->
+			   </div> <!-- end content-support -->
 			    <div class="clear"></div>
         </section>
 
         <!-- Section my account -->
         <section id="my-account" class="snap" data-color="#fff">
         	<div ng-include="'include/login.html'"></div>
-        	<div ng-include="'http://www.refsnesdata.no/angular_include.asp'"></div>
+        
 
         	<!-- Font-awesome carets -->
 	        	<div class="row text-center">
@@ -251,4 +261,27 @@
     </body>
     <script type="text/javascript" src="include/login.js"></script>
     <!-- <script type="text/javascript" src="include/home.js"></script>  -->
+    <script type="text/javascript" src="js/jquery.aniview.min.js"></script>
+    
+    
+          <script>
+var options = {
+    animateThreshold: 100,
+    scrollPollInterval: 20
+}
+$('.aniview').AniView(options);
+</script> 
+
+<script type="text/javascript">
+	// Support Section Video Background
+
+const backgroundVideo = new BackgroundVideo('.bv-video', {
+  src: [
+    'video/support.mp4',
+    'video/support.ogv'
+  ]
+});
+
+
+</script>
     </html>

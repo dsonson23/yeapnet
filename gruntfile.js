@@ -18,25 +18,28 @@ module.exports = function(grunt) {
           compress: false,
           preserveComments: 'all'
         },
+         
         src: ['src/js/jquery.js','src/js/jquery.easing.1.3.js','src/js/typeit.js','src/js/bootstrap.js','src/js/pd.yeap.js'],
-        dest: 'js/pd.yeap.js' 
-        }
-      },
+        dest: 'js/pd.yeap.js'
+           
+    }
+  },
       sass: {
          dev: {
           options: {
              outputStyle: 'expanded'
           },
           files: {
-            'css/pd.yeap.css' : 'src/css/*.css'
+            'css/pd.yeap.css' : 'src/css/bootstrap.css'          
           }
+
          },
          build: {
           options: {
              outputStyle: 'compressed'
           },
           files: {
-            'css/pd.yeap.min.css' : 'src/css/*.css'
+            'css/pd.yeap.min.css' : 'css/pd.yeap.css'
           }
          }
       },

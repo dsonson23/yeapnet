@@ -52,9 +52,30 @@ $(function() {
 })
 
 //jQuery Scroll Snap
-
 $( document ).ready(function() {
     $( '.snap' ).scrollSnap({
   speed: 400
 	});
+	
 });
+
+
+
+/*
+// Animate Elements On Scroll Using jQuery and Animate.css - Aniview
+
+var options = {
+
+    // delay the animation sequence until '100' pixels have come into view
+    animateThreshold: 100,
+
+    // The frequency of which the user scrolling is 'tested'. 
+    scrollPollInterval: 20
+}
+
+$('.aniview').AniView(options);
+
+// Fired the first event ScrollSnap, then fired the second one Aniview
+
+*/
+    

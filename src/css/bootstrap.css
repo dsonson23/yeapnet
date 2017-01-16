@@ -6766,7 +6766,7 @@ button.close {
   font-weight: bold;
 }
 
-.red-default-h1, .red-default-h2, .red-default-h3, .red-default-h4, .red-default-h5, .red-default-h6 {
+.red-default-hd {
   color: #FF0000;
   font-weight: bold;
 }
@@ -6834,6 +6834,17 @@ h2 {
 
 .container-fluid h1 {
   color: #fff;
+}
+
+/*Basic Background Parallax Effect With jQuery And CSS3 - parallax.js*/
+.parallax {
+  background: none;
+  min-height: 200px;
+ background-size: cover;
+ background-attachment: fixed;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 /* font-awesome */
@@ -7055,19 +7066,6 @@ body.lock-scroll{
   overflow: hidden;
 }
 
-/*Basic Background Parallax Effect With jQuery And CSS3 - parallax.js*/
-.parallax {
-  background: none;
-  min-height: 600px;
-  background-size: cover;
-  background-attachment: fixed;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-   opacity: 0.70;
-    filter: alpha(opacity=50);
-}
-
  .content-support {
   position: relative;
 }
@@ -7085,7 +7083,7 @@ body.lock-scroll{
   z-index: 100;
 }
 
-.bv-video, .parallax, .hd-background, #contact {
+.bv-video, .hd-background, #contact {
  filter: brightness(50%);
 }
 

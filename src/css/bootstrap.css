@@ -6761,7 +6761,7 @@ button.close {
 *
 */
 
-.white-default-h1, .white-default-h2, .white-default-h3, .white-default-h4, .white-default-h5, .white-default-h6 {
+.white-default-hd {
   color: #FFF;
   font-weight: bold;
 }
@@ -7089,12 +7089,21 @@ body.lock-scroll{
  filter: brightness(50%);
 }
 
+/*Form Contact us*/
+textarea.medium {
+    height: 7em;
+}
+
+.form_description h1 {
+  display: none;
+}
+
 /* Footer */
 #footer {
   text-align: center;
   text-align: -moz-center; 
   background-color: #1D6CCD;
-  height: 170px;
+  height: 50px;
 }
 
 #footer p {

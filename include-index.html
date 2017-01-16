@@ -44,7 +44,7 @@
     <body ng-app="yeapApp">
 
         <!-- NAVBAR -->
-        <nav class="navbar navbar-inverse navbar-default navbar-fixed-top navbar-custom">
+        <nav class="navbar navbar-fixed-top navbar-custom">
         	<div id="myNav" class="overlay">
 	           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 				  <ul class="overlay-content">
@@ -148,7 +148,7 @@
         <div ng-include="'include/basic-reseller.html'"></div>
         	
         	<!-- Font-awesome carets -->
-        	<div class="row text-center">
+        	<!-- <div class="row text-center">
 	        		<div class="col-md-1 col-none992">
 				    	<a href="#home">
 				      		<div class="fa fa-caret-up aria-hidden='true'"></div>
@@ -159,8 +159,8 @@
 				      		<div class="fa fa-caret-down aria-hidden='true'"></div>
 				      	</a>
 				    </div>
-			    </div> <!-- End font-awesome row -->
-
+			    </div> End font-awesome row -->
+ 
 			<div class="clear"></div>
         </section>
 
@@ -192,7 +192,7 @@
         	<div ng-include="'include/support.html'"></div>
 
         	<!-- Font-awesome carets -->
-	        	<div class="row text-center">
+	        	<!-- <div class="row text-center">
 	        		<div class="col-md-1 col-none992">
 				    	<a href="#pro-reseller">
 				      		<div class="fa fa-caret-up aria-hidden='true'"></div>
@@ -203,7 +203,7 @@
 				      		<div class="fa fa-caret-down aria-hidden='true'"></div>
 				      	</a>
 				    </div>
-			    </div> <!-- End font-awesome row -->
+			    </div> --> <!-- End font-awesome row -->
 			   </div> <!-- end content-support -->
 			    <div class="clear"></div>
         </section>
@@ -264,24 +264,26 @@
     <script type="text/javascript" src="js/jquery.aniview.min.js"></script>
     
     
-          <script>
-var options = {
-    animateThreshold: 100,
-    scrollPollInterval: 20
-}
-$('.aniview').AniView(options);
-</script> 
+    <script>
+	    $(document).ready(function(){
+			var options = {
+			    animateThreshold: 100,
+			    scrollPollInterval: 20
+			}
+			$('.aniview').AniView(options);
+		});
+    </script> 
 
-<script type="text/javascript">
-	// Support Section Video Background
+	<script type="text/javascript">
+		// Support Section Video Background
 
-const backgroundVideo = new BackgroundVideo('.bv-video', {
-  src: [
-    'video/support.mp4',
-    'video/support.ogv'
-  ]
-});
+			const backgroundVideo = new BackgroundVideo('.bv-video', {
+			  src: [
+			    'video/support.mp4',
+			    'video/support.ogv'
+			  ]
+			});
 
 
-</script>
+	</script>
     </html>

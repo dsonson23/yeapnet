@@ -6886,7 +6886,7 @@ body {
 section {
   display: block;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   margin: 50px 0 0 0;
 }
 
@@ -6998,6 +6998,24 @@ nav ul{
   background-color: #ADD8E6;
 }
 
+/*Supoort Section*/
+.content-support {
+  position: relative;
+}
+
+
+ .content-support header {
+  position: absolute;
+  top: -735px;
+  z-index: 100;
+}
+
+.content-support article {
+  position: absolute;
+  top: -450px;
+  z-index: 100;
+}
+
 /* DISABLE the Horizontal Scroll */
 html, body {
     max-width: 100%;
@@ -7052,6 +7070,24 @@ html, body {
   font-size: 2em;
 }
 
+.content-support header {
+  position: absolute;
+  top: -650px;
+}
+
+.content-support article h1 {
+  display: none;
+}
+
+.content-support article {
+  position: absolute;
+  top: -530px;
+}
+
+.support-video-text {
+  font-size: 70%;
+}
+
 #auto-typing {
   font-size: 1.5em;
 }
@@ -7064,23 +7100,6 @@ html, body {
 
 body.lock-scroll{
   overflow: hidden;
-}
-
- .content-support {
-  position: relative;
-}
-
-
- .content-support header {
-  position: absolute;
-  top: -735px;
-  z-index: 100;
-}
-
-.content-support article {
-  position: absolute;
-  top: -450px;
-  z-index: 100;
 }
 
 .bv-video, .hd-background, #contact {
@@ -7101,7 +7120,7 @@ textarea.medium {
   text-align: center;
   text-align: -moz-center; 
   background-color: #1D6CCD;
-  height: 50px;
+  min-height: 200px;
 }
 
 #footer p {

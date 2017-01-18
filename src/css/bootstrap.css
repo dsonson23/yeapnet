@@ -6839,7 +6839,7 @@ h2 {
 /*Basic Background Parallax Effect With jQuery And CSS3 - parallax.js*/
 .parallax {
   background: none;
-  min-height: 200px;
+  /*min-height: 100%;*/
  background-size: cover;
  background-attachment: fixed;
   -webkit-transition: all 0.3s ease;

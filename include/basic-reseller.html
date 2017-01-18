@@ -3,13 +3,41 @@
 	        		<h1>Basic Reseller</h1>
 	        		<hr class="">
 	        	</header>
-	        	<div class="row">
-		        	<article class="col-md-12" >
-		        		<header>
-		        			<h3>header 3</h3>
-		        		</header>
+	        	<div class="row panel-group">
+		        	<article class="col-md-8 panel panel-danger" >
+		        		<!-- <div class="panel-heading">
+						    <h3>Basic Reseller Plan</h3>
+						</div> -->
 		        		<!-- angular templating -->
             			<!-- this is where content will be injected -->
+	            			<div class="panel-body">
+		            			<div class="row text-justify">
+		            				<div class="col-md-5">
+		            					<dl>
+										  <dt>Build your own successful online business!</dt>
+										  <dd>We provide you with everything you need: products, support, even a professional web site. And with our turnkey setup, your site is online from the moment you sign up! Plus, you can:</dd>
+										  	<dl class="col-md-11 col-md-push-1">
+										  		<dt>Build YOUR product mix!</dt>
+										  		<dd>Choose from Domains‡, Hosting, Email, Site Builders and much more (view list).</dd>
+										  		<dt>Set the retail pricing YOU want.</dt>
+										  		<dd>There are no deposits, minimums or advance purchases required.</dd>
+										  		<dt>Customize YOUR Web site.</dt>
+										  		<dd>Add your own logo and images, customize colors and more. Or simply choose one of six ready-made designs. See a Reseller Site.</dd>
+										  	</dl>
+										</dl>	
+		            				</div>
+		            				<div ng-include="'include/reseller-tab.html'"></div> 
+		            				<a href="https://www.secureserver.net/reseller/basic-domain-reseller.aspx?ci=3272&prog_id=yeapnetwork"><button type="button" class="btn-md btn-primary btn btn-block lead">Get started - <span style="color: red;font-weight: bold;">just $199.00</span></button></a>
+		            			</div><!-- End row -->
+	            			</div>
+		        	</article>
+		        	<article class="col-md-3 col-md-offset-1 panel panel-primary bg-panel-primary" >
+		        		<!-- angular templating -->
+            			<!-- this is where content will be injected -->
+            			<div class="panel-heading">
+						      	<h4 class="lead">FREE with Every Plan!</h4>
+						</div>
+						<div ng-include="'include/sidebar.html'"></div>
             			
 		        	</article>
 	        	</div> <!-- End row -->

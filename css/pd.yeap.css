@@ -8196,6 +8196,12 @@ nav ul {
   z-index: 100;
 }
 
+.fa-support {
+  position: relative;
+  bottom: 180px;
+  z-index: 101;
+}
+
 /* DISABLE the Horizontal Scroll */
 html, body {
   max-width: 100%;

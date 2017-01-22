@@ -1,4 +1,4 @@
-/*! yeapnetwork.net 2017-01-17 */
+/*! yeapnetwork.net 2017-01-22 */
 /*!
  * jQuery JavaScript Library v3.1.1
  * https://jquery.com/
@@ -9650,11 +9650,8 @@ $(window).on("scroll touchmove", function() {
     if ($(document).scrollTop() >= $("#home").position().top) {
         $("body").css("background", $("#home").attr("data-color"));
     }
-    if ($(document).scrollTop() >= $("#basic-reseller").position().top) {
-        $("body").css("background", $("#basic-reseller").attr("data-color"));
-    }
-    if ($(document).scrollTop() > $("#pro-reseller").position().top) {
-        $("body").css("background", $("#pro-reseller").attr("data-color"));
+    if ($(document).scrollTop() > $("#reseller-plans").position().top) {
+        $("body").css("background", $("#reseller-plans").attr("data-color"));
     }
     if ($(document).scrollTop() > $("#support").position().top) {
         $("body").css("background", $("#support").attr("data-color"));

@@ -5,12 +5,9 @@ $(window).on("scroll touchmove", function() {
 				$('body').css('background', $("#home").attr("data-color"));
 
 		};
-		if ($(document).scrollTop() >= $("#basic-reseller").position().top) {
-				$('body').css('background', $("#basic-reseller").attr("data-color"));
-
-		};
-		if ($(document).scrollTop() > $("#pro-reseller").position().top) {
-				$('body').css('background', $("#pro-reseller").attr("data-color"))
+		
+		if ($(document).scrollTop() > $("#reseller-plans").position().top) {
+				$('body').css('background', $("#reseller-plans").attr("data-color"))
 		};
 		if ($(document).scrollTop() > $("#support").position().top) {
 

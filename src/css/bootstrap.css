@@ -7022,6 +7022,19 @@ bottom: 180px;
 z-index: 101;
 }
 
+.login {
+  font-size: 22px;
+  color: #18BC9C;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.login a {
+  color: #E74C3C;
+}
+
+
+
 /* DISABLE the Horizontal Scroll */
 html, body {
     max-width: 100%;

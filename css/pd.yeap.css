@@ -8313,3 +8313,7 @@ textarea.medium {
   margin: 0 auto;
   color: #fff;
 }
+
+#footer a {
+  color: red;
+}

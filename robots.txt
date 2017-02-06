@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /css/
+Disallow: /include/
+Disallow: /js/
+Disallow: /node_modules/
+Disallow: /route/
+Disallow: /src/
+Disallow: /video/

@@ -51,7 +51,7 @@ $(function() {
 //jQuery Scroll Snap
 $( document ).ready(function() {
     $( '.snap' ).scrollSnap({
-  speed: 400
+  // speed: 400
 	});
 	
 });

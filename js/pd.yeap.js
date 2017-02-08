@@ -1,4 +1,4 @@
-/*! yeapnetwork.net 2017-02-06 */
+/*! yeapnetwork.net 2017-02-08 */
 /*!
  * jQuery JavaScript Library v3.1.1
  * https://jquery.com/
@@ -9690,7 +9690,5 @@ $(function() {
 
 //jQuery Scroll Snap
 $(document).ready(function() {
-    $(".snap").scrollSnap({
-        speed: 400
-    });
+    $(".snap").scrollSnap({});
 });

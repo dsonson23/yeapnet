@@ -48,7 +48,7 @@
 				  <ul class="overlay-content">
 				  	<li><a href="#video-header">Welcome</a></li>
 				    <li><a href="#home">Home</a></li>
-				    <li><a href="#reseller-plans">Pro Reseller</a></li>
+				    <li><a href="#reseller-plans">Reseller Plans</a></li>
 				    <li><a href="#my-account">My Account</a></li>
 				    <li><a href="#support">Support</a></li>
 				    <li><a href="#contact">Contact us</a></li>
@@ -58,7 +58,7 @@
 			<div class="container-fluid">
 				<div class="row">
 					  <div class="col-xs-1">
-					  		<span style="font-size:35px;color:#fff;cursor:pointer" onclick="openNav()">&#9776;</span>
+					  		<span class="cursor" onclick="openNav()">&#9776;</span>
 					  </div>
 					  <div class="col-xs-5 login">
 					  		<i class="fa fa-sign-in" aria-hidden="true"></i><a href="https://sso.secureserver.net/?app=mya&path=%2f%3fci%3d3276%26prog_id%3dyeapnetwork&plid=309511&prog_id=yeapnetwork"> LOGIN</a>
@@ -73,6 +73,17 @@
 		      
         <!-- HEADER VIDEO COVER-->
         <header id="video-header" class="snap">
+        	<!-- Header Full Screen Video Background -->
+	        <video autoplay loop muted poster="img/screenshot.jpg" alt="Hosting reseller plans" id="hd-background">
+				  <source src="video/yeap-header.mp4" type="video/mp4" alt="Data center Hosting reseller plans">
+				  <source src="video/yeap-header.ogg" type="video/ogg"  alt="video data center Hosting reseller plans">
+			</video>
+			
+			  <article class="container-fluid">
+			    <div class="row">
+			      <div class="col-md-12 text-center hd-video-text">
+			        <h1 class="aniview fast" av-animation="rotateIn">Make Money Now</h1>
+			        <h2>With the hottest reseller plan around</h2>
          	<div ng-include="'include/header.html'"></div>
          	<div class="row text-center">
 			    	<a href="#home">
@@ -103,8 +114,7 @@
 	            			</ul>
             			</div>	
 		        	</article>  
-		        </div> <!-- End container -->
-        <div class="container">
+		      
 
         	<article class="row panel-group aniview reallyslow" av-animation="zoomIn">
 		        			<div class="col-sm-4 panel panel-danger">
@@ -139,12 +149,24 @@
 						      <div class="panel-heading">
 						      	<h4 class="lead">FREE with Every Plan!</h4>
 						      </div>
-						    <div ng-include="'include/sidebar.html'"></div>
+						    <div class="panel-body">
+						      	<p class="small">Reseller Web site, including shopping cart and credit card processing. <br>24/7 support for your customers.<br>How to be a Reseller ebook, written by one of our top resellers.<br>30-day Money Back Guarantee and much more...</p>	
+						      	
+						      	<ul>
+					      	    	<li>Deluxe Linux Hosting with cPanel</li>
+					      	    	<li>Business Email</li>
+					      	    	<li>Business Plus Website Builder</li>
+					      	    	<li>Search Engine Visibility</li>
+						      	</ul>
+						      	<p><a href="http://yeapnetwork.com">FREE REFERRAL REWARD BONUS PROGRAM</a></p>
+						      </div>
+						      <div class="text-center">
+					    		<a href="https://www.secureserver.net/reseller/reseller-bonus-software.aspx?ci=91940&prog_id=yeapnetwork&pl_id=309511" class="btn-lg btn-info" role="button">More</a>	
+						      </div>
 						      
 					    	  </div><br>
-						    </div>
 		        	</article>
-		          </div>
+		          </div> <!-- End container -->
 
 
 
@@ -168,7 +190,128 @@
 
         <!-- Section reseller-plans -->
         <section id="reseller-plans" class="parallax snap" data-color="#fff" data-img="img/dedicated-server-data-center-tb.jpg" alt="Reseller Plans">
-        	<div ng-include="'include/pro-reseller.html'"></div>
+        	<div class="container-fluid">
+	        	<header>
+	        		<h1>Reseller Plans</h1>
+	        	</header>
+	        	<div class="row panel-group">
+		        	<article class="col-md-8 panel panel-danger" >
+		        		<!-- <div class="panel-heading">
+						    <h3>Basic Reseller Plan</h3>
+						</div> -->
+		        		<!-- angular templating -->
+            			<!-- this is where content will be injected -->
+	            			<div class="aniview panel-body"  av-animation="swing">
+		            			<div class="row text-justify">
+		            				<div class="col-md-5">
+		            					<dl>
+										  <dt>Build your own successful online business!</dt>
+										  <dd>We provide you with everything you need: products, support, even a professional web site. And with our turnkey setup, your site is online from the moment you sign up! Plus, you can:</dd>
+										  	<dl class="col-md-11 col-md-push-1">
+										  		<dt>Build YOUR product mix!</dt>
+										  		<dd>Choose from Domains‡, Hosting, Email, Site Builders and much more (view list).</dd>
+										  		<dt>Set the retail pricing YOU want.</dt>
+										  		<dd>There are no deposits, minimums or advance purchases required.</dd>
+										  		<dt>Customize YOUR Web site.</dt>
+										  		<dd>Add your own logo and images, customize colors and more. Or simply choose one of six ready-made designs. See a Reseller Site.</dd>
+										  	</dl>
+										</dl>	
+		            				</div>
+		            				<div class="col-md-7">
+		            					<ul class="nav nav-tabs">
+		            						<li class="active">
+		            							<a data-toggle="tab" href="#compare-plans-pro">Compare Plans</a>
+		            						</li>
+		            						<li class="nav nav-tabs">
+		            							<a data-toggle="tab" href="#faqs-pro">FAQs</a>
+		            						</li>
+		            					</ul>
+		            					<div class="tab-content">
+		            						<div id="compare-plans-pro" class="tab-pane fade in active">
+		            							<table class="table table-striped">
+												    <thead>
+												      <tr>
+												        <th>Products & Plan Features</th>
+												        <th>Basic Reseller $199.00/yr</th>
+												        <th>Pro Reseller $249.00/yr</th>
+												      </tr>
+												    </thead>
+												    <tbody>
+												      <tr>
+												        <td>The BEST buy rates in the industry</td>
+												        <td class="fa fa-times"></td>
+												        <td><span class="fa fa-check"></span></td>
+												      </tr>
+												      <tr>
+												        <td>Earn Pay-Per-Click commission on customers' parked domains</td>
+												        <td class="fa fa-times"></td>
+												        <td><span class="fa fa-check"></span></td>
+												      </tr>
+												      <tr>
+												        <td>24/7 support for you and your customers</td>
+												        <td class="fa fa-check"></td>
+												        <td><span class="fa fa-check"></span></td>
+												      </tr>
+												      
+												      <tr>
+												        <td>Email Marketing & Templates</td>
+												        <td class="fa fa-check"></td>
+												        <td><span class="fa fa-check"></span></td>
+												      </tr>
+												      
+												      <tr>
+												        <td>Automated billing and renewals</td>
+												        <td class="fa fa-check"></td>
+												        <td><span class="fa fa-check"></span></td>
+												      </tr>
+												      <tr>
+												        <td>Turnkey Web site with cart and credit card processing</td>
+												        <td class="fa fa-check"></td>
+												        <td><span class="fa fa-check"></span></td>
+												      </tr>
+												      
+												      <tr>
+												        <td>FREE Bonus software & extras</td>
+												        <td>$505 value</td>
+												        <td>$505 value</td>
+												      </tr>
+												    </tbody>
+												  </table>	
+		            					    </div>
+
+		            						<div id="faqs-pro" class="tab-pane fade">
+			            						
+			            							<p>Does YeapNetwork.net charge sales or transaction fees?</p>
+			            							<p>What reports are available with my reseller account?</p>
+			            							<p>Who will be listed as the registrar for domain names registered through my Reseller storefront?</p>
+			            							<p>More FAQs...</p>
+			            							
+		            						</div>
+		            					</div>
+		            				</div>	            				
+		            			</div><!-- End row -->
+		            			<!-- Nested buttons colums -->
+	            				<div class="row">
+	            					<div class="col-md-6">
+	            						<a href="https://www.secureserver.net/reseller/basic-domain-reseller.aspx?ci=3272&prog_id=yeapnetwork"><button type="button" class="btn-primary btn btn-block lead">Basic Reseller - <span>just $199.00</span></button></a>
+	            					</div>
+	            					<div class="col-md-6">
+	            						<a href="https://www.secureserver.net/reseller/pro-domain-reseller.aspx?ci=3273&prog_id=yeapnetwork"><button type="button" class="btn-primary btn btn-block lead">Pro Reseller - <span>just $249.00</span></button></a>
+	            					</div> 
+	            				</div> <!-- End nested buttons colums -->
+	            			</div>
+		        	</article>
+		        	<article class="col-md-3 col-md-offset-1 panel panel-primary bg-panel-primary" >
+		        		<!-- angular templating -->
+            			<!-- this is where content will be injected -->
+            			<div class="panel-heading">
+						      	<h4 class="lead">FREE with Every Plan!</h4>
+						</div>
+						<div ng-include="'include/sidebar.html'"></div>
+            			
+		        	</article>
+	        	</div> <!-- End row -->
+        	</div> <!-- End container -->
         	
         	<!-- Font-awesome carets -->
 	        	<div class="row text-center">
@@ -187,7 +330,7 @@
         </section>
 
          <!-- Section my account -->
-        <section id="my-account" class="snap" data-color="#ADD8E6">
+        <section id="my-account" class="aniview snap" av-animation="zoomIn" data-color="#ADD8E6">
         	<div ng-include="'include/login.html'"></div>
         
 
@@ -231,7 +374,7 @@
         </section>
 
         <!-- Section contact us -->
-        <section id="contact" class="snap" data-color="#ADD8E6">
+        <section id="contact" class="aniview snap" data-color="#ADD8E6" av-animation="pulse">
         	<div ng-include="'include/contact.html'"></div>
         	<!-- Font-awesome carets -->
 	        	 <!-- <div class="row text-center">
@@ -272,6 +415,19 @@
 		</script>
 
 		<!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-589906a18924e926"></script> 
+
+		<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Technology",
+  "url": "http://yeapnetwork.net/",
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "telephone": "+1-888-407-9575",
+    "contactType": "Customer Service"
+  }]
+}
+</script>
 
     </body>
     <script type="text/javascript" src="include/login.js"></script>

@@ -8299,6 +8299,17 @@ textarea.medium {
   display: none;
 }
 
+span {
+  color: red;
+  font-weight: bold;
+}
+
+.cursor {
+  font-size: 35px;
+  color: #fff;
+  cursor: pointer;
+}
+
 /* Footer */
 #footer {
   text-align: center;

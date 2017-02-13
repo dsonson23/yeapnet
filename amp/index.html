@@ -1,11 +1,11 @@
 <!-- index.html -->
     <!DOCTYPE html>
-    <html lang="en">
+    <html amp>
     <head>
 
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width,minimum-scale=1">
 
 	    <!-- Basic page information -->
 	    <title>Be a Web Hosting Reseller Without Owning a Data Center</title>
@@ -16,19 +16,21 @@
 	    <!-- Fav Icon -->
 	    <link rel="shortcut icon" href="favicon.ico">
 
-	    <!-- AMP -->
-	    <!-- <link rel="amphtml" href="amp/" /> -->
-
 	    <!-- SCROLLS -->
 	    <!-- load css and fontawesome-->	    
 	    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Fugaz+One|Ultra" rel="stylesheet">
 	    <link rel="stylesheet" type="text/css" href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
 		<link rel="stylesheet" type="text/css" href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.0.9/font-awesome-animation.min.css'>
 		<!-- <link rel="stylesheet" type="text/css" href="css/animate.css"> -->
-		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
-	    <link rel="stylesheet" href="css/pd.yeap.min.css" />
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+	    <link rel="stylesheet" href="http://yeapnetwork.net/css/pd.yeap.min.css" />
+	    <link amp-custom rel="stylesheet" href="amp.css" />
 	    
+	    <!-- AMP -->
+	    <link rel="canonical" href="http://yeapnetwork.net/">
 
+	    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+  
 
 	    <!-- SPELLS  -->
 	    <!-- JSON-LD structured data -->
@@ -62,23 +64,27 @@
 			}
 	    </script>
 
+
+    	<!-- AMP -->
+   		<script async src="https://cdn.ampproject.org/v0.js"></script>
+
 	    <!-- load JS Files: on this 1 js file, I have shrunk angular-route, angular, bootstrap, jQuery and my js files  
 	     -->	    
-	    <script type="text/javascript" src="js/pd.yeap.min.js"></script>
-	    <script type="text/javascript" src="js/parallax.js"></script>
-    <script type="text/javascript" src="js/backgroundVideo.js"></script>
-	    <script type="text/javascript" src="js/jquery-scroll-snap.js"></script> 
-	    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-	    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
-	    <script type="text/javascript" src="js/yeap-app.js"></script>  
+	    <script async type="text/javascript" src="http://yeapnetwork.net/js/pd.yeap.min.js"></script>
+	    <script async type="text/javascript" src="http://yeapnetwork.net/js/parallax.js"></script>
+    <script async type="text/javascript" src="http://yeapnetwork.net/js/backgroundVideo.js"></script>
+	    <script async type="text/javascript" src="http://yeapnetwork.net/js/jquery-scroll-snap.js"></script> 
+	    <script async type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	    <script async type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+	    <script async type="text/javascript" src="http://yeapnetwork.net/js/yeap-app.js"></script>  
     </head>
 
-    <body ng-app="yeapApp">
+    <body>
 
         <!-- NAVBAR -->
         <nav class="navbar navbar-fixed-top navbar-custom">
         	<div id="myNav" class="overlay">
-	           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	           <a href="noscript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 				  <ul class="overlay-content">
 				  	<li><a href="#video-header">Welcome</a></li>
 				    <li><a href="#home">Home</a></li>
@@ -100,7 +106,7 @@
 					  </div>
 
 					  <div class="col-xs-5 col-xs-offset-1 text-right" id="logo">
-					  		<a href="http://yeapnetwork.net"><img class="img-rounded" src="img/logo.jpg" title="Yeap Network Logo" alt="Logo"></a>
+					  		<a href="http://yeapnetwork.net"><amp-img class="img-rounded" src="http://yeapnetwork.net/img/logo.jpg" alt="Logo" height="39" width="130"></amp-img></a>
 					  </div>
 				</div>
 			</div>
@@ -108,24 +114,30 @@
 		      
         <!-- HEADER VIDEO COVER-->
         <header id="video-header" class="snap">
-        	<!-- Header Full Screen Video Background -->
-	        <video autoplay loop muted poster="img/screenshot.jpg" alt="Hosting reseller plans" id="hd-background">
-				  <source src="video/yeap-header.mp4" type="video/mp4" alt="Data center Hosting reseller plans">
-				  <source src="video/yeap-header.ogg" type="video/ogg"  alt="video data center Hosting reseller plans">
-			</video>
+        	
 			
 			  <article class="container-fluid">
 				    <div class="row">
 				      <div class="col-md-12 text-center hd-video-text">
-				        <h1 class="aniview fast" av-animation="rotateIn">Make Money Now!</h1>
+				        <h1>Make Money Now!</h1>
 				        <h2>With the hottest reseller plan around</h2>
-		         	<div ng-include="'include/header.html'"></div>
+		         	<!-- Add typeit - a jQuery plugin that allows auto-typing texts -->
+			        <h3 id="auto-typing"></h3> 
+					<script async type="text/javascript">
+                   		$('#auto-typing').typeIt({
+						     strings: ["Build your own successful online business!", "Set the retail pricing YOU want", "Customize YOUR Web site", "Get started today for only $199.00"],
+						     speed: 250,
+						     breakLines: false,
+						     loopDelay: 500
+						});
+					</script>
+			      </div>
 		         	<!-- Sign in Button -->
 				    <div class="row">
-				    	<div class="col-xs-6">
+				    	<div class="col-md-6 text-right">
 				    		<a href="#reseller-plans" class="btn-lg btn-info" role="button">Sign Up</a>
 				    	</div>
-				    	<div class="col-xs-6">
+				    	<div class="col-md-6 text-left">
 				    		<a href="#my-account" class="btn-lg btn-info" role="button">Free Account</a>
 				    	</div>
 				    </div>
@@ -161,7 +173,7 @@
 		        	</article>  
 		      
 
-        	<article class="row panel-group aniview reallyslow" av-animation="zoomIn">
+        	<article class="row panel-group reallyslow">
 		        			<div class="col-sm-4 panel panel-danger">
 						      <div class="panel-heading">
 						      	<h3>Basic Reseller Plan</h3>
@@ -234,7 +246,7 @@
         
 
         <!-- Section reseller-plans -->
-        <section id="reseller-plans" class="parallax snap" data-color="#fff" data-img="img/dedicated-server-data-center-tb.jpg" alt="Reseller Plans">
+        <section id="reseller-plans" class="parallax snap" data-color="#fff" data-img="img/dedicated-server-data-center-tb.jpg">
         	<div class="container-fluid">
 	        	<header>
 	        		<h1>Hosting Reseller Plans</h1>
@@ -246,7 +258,7 @@
 						</div> -->
 		        		<!-- angular templating -->
             			<!-- this is where content will be injected -->
-	            			<div class="aniview panel-body"  av-animation="swing">
+	            			<div class="panel-body">
 		            			<div class="row text-justify">
 		            				<div class="col-md-4 col-md-push-1">
 		            					<dl>
@@ -345,7 +357,20 @@
             			<div class="panel-heading">
 						      	<h4 class="lead">FREE with Every Plan!</h4>
 						</div>
-						<div ng-include="'include/sidebar.html'"></div>
+						<div class="panel-body">
+						      	<p class="small">Reseller Web site, including shopping cart and credit card processing. <br>24/7 support for your customers.<br>How to be a Reseller ebook, written by one of our top resellers.<br>30-day Money Back Guarantee and much more...</p>	
+						      	
+						      	<ul>
+					      	    	<li>Deluxe Linux Hosting with cPanel</li>
+					      	    	<li>Business Email</li>
+					      	    	<li>Business Plus Website Builder</li>
+					      	    	<li>Search Engine Visibility</li>
+						      	</ul>
+						      	<p><a href="http://yeapnetwork.com">FREE REFERRAL REWARD BONUS PROGRAM</a></p>
+						      </div>
+						      <div class="text-center">
+					    		<a href="https://www.secureserver.net/reseller/reseller-bonus-software.aspx?ci=91940&prog_id=yeapnetwork&pl_id=309511" class="btn-lg btn-info" role="button">More</a>
+					    	  
             			
 		        	</article>
 	        	</div> <!-- End row -->
@@ -368,8 +393,68 @@
         </section>
 
          <!-- Section my account -->
-        <section id="my-account" class="aniview snap" av-animation="zoomIn" data-color="#ADD8E6">
-        	<div ng-include="'include/login.html'"></div>
+        <section id="my-account" class="snap" data-color="#ADD8E6">
+        	<!-- <script type="text/javascript" src="../js/yeap-app.js"></script> 
+<script type="text/javascript" scr="login.js"></script> -->
+
+
+<div class="container">
+	        	<header>
+	        		<h1>My Account</h1>
+	        	</header>
+	        	
+		        	<article class="row panel-group">
+		        			<div class="col-sm-5 panel panel-danger">
+						      <div class="panel-heading">
+						      	<h3>Create a Free Account</h3>
+						      </div>
+						      <div class="panel-body">
+						      		<p>If you are not ready yet to get your reseller plan, at least get a free account.</p>
+						      		<h4>Benefice of the free account</h4>
+						      		<ul>
+						      			<li>Free promotion with discount code</li>
+						      			<li>Easy to get a tech support on the phone to answer all your questions that you might have</li>
+						      			<li>Start getting used to the back office</li>
+						      	    </ul>
+						      </div>
+						      <div class="text-center">
+					    		<a href="https://sso.secureserver.net/account/create?path=/%3Fci%3D3276%26prog_id%3Dyeapnetwork&app=mya&ssoreturnpath=/%253Fpath%253D/%25253Fci%25253D3276%252526prog_id%25253Dyeapnetwork%2526app%253Dmya%2526plid%253D309511&plid=309511" class="btn-lg btn-info" role="button">Create an Account</a>
+					    	  </div><br>
+						    </div>
+
+						    <div class="col-sm-5 col-md-offset-2  panel panel-danger">
+						      <div class="panel-heading">
+						      	<h3>Access Your Back Office</h3>
+						      </div>
+						      <div class="panel-body">
+						      		<h4>Login to manage your free products</h4>
+						      	    <ul>
+						      	    	<li>Deluxe Linux Hosting with cPanel</li>
+						      	    	<li>Business Email</li>
+						      	    	<li>Business Plus Website Builder</li>
+						      	    	<li>Search Engine Visibility</li>
+						      	    	<li>Email Marketing - Pro</li>
+						      	    	<li>Deluxe Online Storage</li>
+						      	    </ul>
+						      	    <h4>Manage your store</h4>
+						      	    <ul>
+						      	    	<li>Sales commission report</li>
+						      	    	<li>Customer Lookup</li>
+						      	    	<li>Discount Customer Sales</li>
+						      	    	<li>Storefront Designer and Social Media</li>
+						      	    	<li>Fix your own product prices</li>
+						      	    	<li>Manage you store promotions and more</li>
+						      	    </ul>
+						      </div>
+						      <div class="text-center">
+					    		<a href="https://sso.secureserver.net/?app=mya&path=%2f%3fci%3d3276%26prog_id%3dyeapnetwork&plid=309511&prog_id=yeapnetwork" class="btn-lg btn-info" role="button">Sign in</a>
+					    	  </div><br>
+						    </div>
+		        	</article>	        	
+</div> <!-- End container -->
+        
+        	
+        	
         
 
         	<!-- Font-awesome carets -->
@@ -390,9 +475,28 @@
 
         <!-- Section support 6A4A3C-->
         <section id="support" class="snap">
-        <video class="bv-video"></video> 
-           <div class="content-support">
-        	<div ng-include="'include/support.html'"></div>
+           <div class="">
+        	<div class="container-fluid">
+	        	<header>
+	        		<h1>Support</h1>
+	        		<h2>1-888-407-9575</h2>
+	        	</header>
+	        	<div class="row">
+		        	<article class="col-md-12 support-video-text text-center">
+		        		<h1>YOUR SATISFACTION IS OUR PRIORITY</h1>
+		        		<h2>FOR FASTER SERVICE, GET YOUR PIN & CUSTOMER # READY</h2>
+		        		<h3 class="white-default-hd">If you don't have one yet, you can get it for free</h3>
+		        		<a href="https://sso.secureserver.net/account/create?path=/%3Fci%3D3276%26prog_id%3Dyeapnetwork&app=mya&ssoreturnpath=/%253Fpath%253D/%25253Fci%25253D3276%252526prog_id%25253Dyeapnetwork%2526app%253Dmya%2526plid%253D309511&plid=309511"><button type="button" class="btn-lg btn-primary">FREE CUSTOMER #</button></a>
+		        		<!-- angular templating -->
+            			<!-- this is where content will be injected -->
+            			
+            			
+		        	</article>
+		        	
+		        	
+	        	
+        	</div> <!-- End container -->
+        	
 
         	<!-- Font-awesome carets -->
 	        	 <div class="row text-center fa-support">
@@ -412,15 +516,56 @@
         </section>
 
         <!-- Section contact us -->
-        <section id="contact" class="aniview snap" data-color="#ADD8E6" av-animation="pulse">
-        	<div ng-include="'include/contact.html'"></div>
+        <section id="contact" class="snap" data-color="#ADD8E6">
+        	<div class="container">
+		        		<!-- angular templating -->
+            			<!-- this is where content will be injected -->
+            	<div class="row">
+					<article class="col-md-5 white-default-hd">
+					<h1>Contact us</h1>
+	        		<hr class="">
+	        		<h3>World Financial Center</h3>
+	        		<h4>New York, NY 10281</h4>
+	        		<h4>1-888-407-9575</h4>
+	        	    </article>                
+
+
+	                <article class="col-md-7">
+	                  
+					    <div id="mf_placeholder" 
+						     data-formurl="http://yeapnetwork.com/fm/embed.php?id=10741" 
+						     data-formheight="825"  
+						     data-paddingbottom="10">
+						</div>
+						<script async type="text/javascript" src="http://yeapnetwork.com/fm/js/jquery.ba-postmessage.min.js"></script>
+						<script async type="text/javascript" src="http://yeapnetwork.com/fm/js/machform_loader.js"></script>
+
+			        </article>
+	        	</div> <!-- End row -->
+        	</div> <!-- End container -->
+        	
 			    </div> --> <!-- End font-awesome row -->
 			    <div class="clear"></div>
         </section>
 
         <!-- FOOTER-->
         <footer id="footer" data-color="#1D6CCD">
-        	<div ng-include="'include/footer.html'"></div>
+        	<article class="container-fluid">        		
+        		<div class="row">
+	        		<div class="col-xs-12 text-center">
+	        			<p>@ Yeap Network 2017, all right reserved, developed by <a href="http://dhaiti.pro/">Peter DHaiti</a></p>
+	        		</div>
+	        		<div itemscope itemtype="http://schema.org/Person">
+					   <span itemprop="name">Call us</span>
+					   <span itemprop="company"> Yeap Network</span>
+					   <span itemprop="tel"> 888-407-9575</span>
+					</div>
+					<div>
+						<span id="siteseal"><script async type="text/javascript" src="https://seal.starfieldtech.com/getSeal?sealID=grTbbJY6efoRwXWykmMH4jbAt3B3WOTPdm82ssgqI3hbbCY9r4joNxECRLaC"></script></span>
+					</div>
+			
+        		</div>
+			</article>       
         	<div class="row text-center">
 			    	<a href="#hd-background">
 			      		<div class="col-xs-12 fa fa-caret-up faa-bounce animated aria-hidden='true'"></div>
@@ -429,7 +574,7 @@
 			    <div class="clear"></div>	
         </footer>
 
-        <script>
+        <script async>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -440,14 +585,13 @@
 
 		</script>
 
-		<!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-589906a18924e926"></script>  		
+		<!-- Go to www.addthis.com/dashboard to customize your tools --> <script async type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-589906a18924e926"></script>  		
 
     </body>
-    <script type="text/javascript" src="include/login.js"></script>
-    <script type="text/javascript" src="js/jquery.aniview.min.js"></script>
+    <script async type="text/javascript" src="http://yeapnetwork.net/js/jquery.aniview.min.js"></script>
     
     
-    <script>
+    <script async>
 	    $(document).ready(function(){
 			var options = {
 			    animateThreshold: 100,
@@ -457,16 +601,4 @@
 		});
     </script> 
 
-	<script type="text/javascript">
-		// Support Section Video Background
-
-			const backgroundVideo = new BackgroundVideo('.bv-video', {
-			  src: [
-			    'video/support.mp4',
-			    'video/support.ogv'
-			  ]
-			});
-
-
-	</script>
     </html>

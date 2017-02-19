@@ -1,0 +1,14 @@
+# Disable server signature
+ ServerSignature Off
+
+<ifModule mod_rewrite.c>
+
+# Set XSS Protection header
+Header set X-XSS-Protection "1; mode=block"
+
+RewriteEngine on
+
+RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
+RewriteRule .* ? [F,L]
+ 
+</ifModule>

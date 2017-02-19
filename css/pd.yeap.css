@@ -8000,7 +8000,7 @@ h2 {
 }
 
 .hd-video-text {
-  margin-top: 240px;
+  margin-top: 185px;
 }
 
 #auto-typing {
@@ -8165,6 +8165,11 @@ nav ul {
   transform: translateX(-50%) translateY(-50%);
   background: url(../img/data-center.jpg) no-repeat;
   background-size: cover;
+}
+
+#translate {
+  position: relative;
+  top: 53px;
 }
 
 #home {

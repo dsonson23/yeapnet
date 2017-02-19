@@ -10,8 +10,12 @@
 	    <!-- Basic page information -->
 	    <title>Be a Web Hosting Reseller Without Owning a Data Center</title>
 		<meta name="description" content="Yeap Network provides you with everything you need to become a web hosting reseller and services without owning a data center.">
-		<meta name="author" content="Peter D.">
+		<meta name="author" content="Yeap Developers">
 	    
+	    <!-- For Social Sharing -->
+		<meta property="og:title" content="Become a Domain Names and Web Hosting Reseller Without Owning a Data Center" />
+		<meta property="og:description" content="Yeap Network provides you with everything you need to become a web hosting reseller and services without owning a data center. Yeap Network provides you the products, tech support for your customers, even a professional web site. And with our turnkey setup, your site is online from the moment you sign up!" />
+		<meta property="og:image" content="img/large-logo.jpg" />
 
 	    <!-- Fav Icon -->
 	    <link rel="shortcut icon" href="favicon.ico">
@@ -36,10 +40,10 @@
 	    	{
 			  "@context": "http://schema.org/",
 			  "@type": "Product",
-			   "url": "http://yeapnetwork.net",
-			  "logo": "http://yeapnetwork.net/img/logo.jpg",
+			   "url": "//yeapnetwork.net",
+			  "logo": "//yeapnetwork.net/img/logo.jpg",
 			  "name": "Build your own web hosting  business and services",
-			  "image": "http://yeapnetwork.net/img/data-center.jpg",
+			  "image": "//yeapnetwork.net/img/data-center.jpg",
 			  "description": "Yeap Network provides you with everything you need to become a web hosting reseller and services without owning a data center.",
 			  "brand": {
 			    "@type": "Product",
@@ -68,9 +72,9 @@
 	    <script type="text/javascript" src="js/parallax.js"></script>
     <script type="text/javascript" src="js/backgroundVideo.js"></script>
 	    <script type="text/javascript" src="js/jquery-scroll-snap.js"></script> 
-	    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-	    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
-	    <script type="text/javascript" src="js/yeap-app.js"></script>  
+	    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
+	    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.min.js"></script>
+	     
     </head>
 
     <body ng-app="yeapApp">
@@ -86,7 +90,7 @@
 				    <li><a href="#my-account">My Account</a></li>
 				    <li><a href="#support">Support</a></li>
 				    <li><a href="#contact">Contact us</a></li>
-				    <li><a href="http://yeapnetwork.com/">Passive Income Referral</a></li>
+				    <li><a href="//yeapnetwork.com/">Passive Income Referral</a></li>
 				  </ul>	  			
 			</div>
 
@@ -105,9 +109,26 @@
 				</div>
 			</div>
         </nav>
-		      
+
+		<!--Translate-->
+		<article id="translate">
+			 <!-- <h2>Translate</h2> -->
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-2 col-md-offset-10">
+						<div id="google_translate_element">
+						</div><script type="text/javascript">
+							function googleTranslateElementInit() {
+							  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+							}
+							</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>							
+					</div>
+				</div>
+			</div>  <!-- End Translate -->
+		</article>
+
         <!-- HEADER VIDEO COVER-->
-        <header id="video-header" class="snap">
+        <header id="video-header">
         	<!-- Header Full Screen Video Background -->
 	        <video autoplay loop muted poster="img/screenshot.jpg" alt="Hosting reseller plans" id="hd-background">
 				  <source src="video/yeap-header.mp4" type="video/mp4" alt="Data center Hosting reseller plans">
@@ -421,11 +442,21 @@
         <!-- FOOTER-->
         <footer id="footer" data-color="#1D6CCD">
         	<div ng-include="'include/footer.html'"></div>
+        	<div itemscope itemtype="http://schema.org/Person">
+					   <span itemprop="name">Customer Service </span>-
+					   <span itemprop="company">Yeap Network </span>:
+					   <span itemprop="tel">888-407-9575 </span>
+					   
+			</div>
+			<div>
+						<span id="siteseal"><script async type="text/javascript" src="https://seal.starfieldtech.com/getSeal?sealID=grTbbJY6efoRwXWykmMH4jbAt3B3WOTPdm82ssgqI3hbbCY9r4joNxECRLaC"></script></span>
+			</div>
+			
         	<div class="row text-center">
 			    	<a href="#hd-background">
 			      		<div class="col-xs-12 fa fa-caret-up faa-bounce animated aria-hidden='true'"></div>
 			      	</a>
-			    </div>
+			 </div>
 			    <div class="clear"></div>	
         </footer>
 

@@ -6816,7 +6816,7 @@ h2 {
 }
 
 .hd-video-text {
-  margin-top: 240px;
+  margin-top: 185px;
 }
 
 #auto-typing {
@@ -6985,6 +6985,10 @@ nav ul{
     background-size: cover;
 }
 
+#translate {
+  position: relative;
+  top: 53px;
+}
 
 #home {
   position: relative;

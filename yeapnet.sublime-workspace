@@ -1,0 +1,479 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"h",
+				"height"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/css/bootstrap.css",
+			"settings":
+			{
+				"buffer_size": 151829,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/parallax.js",
+			"settings":
+			{
+				"buffer_size": 338,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "include/login.js",
+			"settings":
+			{
+				"buffer_size": 150,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/jquery-scroll-snap.js",
+			"settings":
+			{
+				"buffer_size": 935,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 22734,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 101.0,
+		"last_filter": "Snippet: ",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 162.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/amp",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/img",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/include",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/js",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/src",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/src/css",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/src/js",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/video"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/js/backgroundVideo.js",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/js/yeap-plugin.js",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/js/yeap-plugin.min.js",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/include/pro-reseller.html",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/src/js/pd.yeap.js",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/src/css/pd.yeap.css",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/js/yeap.plugins.js",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/include/home.html",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/include/header.html",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/include/basic-reseller.html",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/include/reseller-tab.html",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/js/json-ld.js",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/amp/index.html",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/include/sidebar.html",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/src/js/yeap-app.js",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/.htaccess",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/include/login.html",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/include/contact.html",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/include/footer.html",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/gruntfile.js",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/amp/amp.css",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/include/support.html",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/js/json-ld.min.js",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/include-index.html",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/img/data-center-t.jpg",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/img/dedicated-server-data-center-tb.jpg",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/include/login.js",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/js/pd.yeap.js",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/include/header.js",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/index.html",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/include/support.js",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/js/jquery.livequery.min.js",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/css/pd.yeap.css",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/img/data-center.jpg",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/img/wfc.jpg",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/img/logo.jpg",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/src/css/animate.css",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/js/angular-scroll-animate.js",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/include/home.js",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/src/css/bootstrap.css",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/src/css/animate.min.css",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/include/route-index.html",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/route/header.html",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/route/index.html",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/contact.html",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/header.html",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/home.html",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/basic-reseller.html",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/pro-reseller.html",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/support.html",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/login.html",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/welcome.html",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/footer.html",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/route-index.html",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/package.json",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/Gruntfile.js",
+		"/C/xampp/htdocs/site/yeapnetwork/yeapnet/js/jquery.js",
+		"/C/xampp/htdocs/site/pd-portfolio/gruntfile.js",
+		"/Z/Data/usawebsolution/pd-portfolio/package.json",
+		"/Z/Data/usawebsolution/pd-portfolio/gruntfile.js",
+		"/Z/Data/usawebsolution/pd-portfolio/index.html"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"button",
+			"http://",
+			"alt=\"Reseller Plan",
+			"animation",
+			"ng-",
+			"<script",
+			"support",
+			"video",
+			"support",
+			"include",
+			"amp",
+			"img",
+			"h2",
+			"style",
+			"position",
+			"caret",
+			"fa",
+			"img",
+			"pro-reseller",
+			"li",
+			"animate",
+			"text-",
+			"active",
+			"basi",
+			"body",
+			"row",
+			"col-none992"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"//",
+			"p"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/css/bootstrap.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 151829,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								146570,
+								146570
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 162724.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/parallax.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 338,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								338,
+								338
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 3086.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "include/login.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								145,
+								54
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/jquery-scroll-snap.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 935,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								935,
+								935
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 9651.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22734,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17350,
+								17356
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 11606.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.342786683106,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "yeapnet.sublime-project",
+	"replace":
+	{
+		"height": 80.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 298.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -16,23 +16,47 @@
 		<meta property="og:title" content="Become a Domain Names and Web Hosting Reseller Without Owning a Data Center" />
 		<meta property="og:description" content="Yeap Network provides you with everything you need to become a web hosting reseller and services without owning a data center. Yeap Network provides you the products, tech support for your customers, even a professional web site. And with our turnkey setup, your site is online from the moment you sign up!" />
 		<meta property="og:image" content="img/large-logo.jpg" />
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://www.yeapnetwork.net/">
 
 	    <!-- Fav Icon -->
-	    <link rel="shortcut icon" href="favicon.ico">
+	    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+	    <meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@yeapnetwork">
+	<meta name="twitter:title" content="Become a Domain Names and Web Hosting Reseller Without Owning a Data Center">
+	<meta name="twitter:description" content="Yeap Network provides you with everything you need to become a web hosting reseller and services without owning a data center. Yeap Network provides you the products, tech support for your customers, even a professional web site. And with our turnkey setup, your site is online from the moment you sign up!">
+
+	<link rel=”publisher” href=”https://plus.google.com/116206880849541637976”>
 
 	    <!-- AMP -->
 	    <!-- <link rel="amphtml" href="amp/" /> -->
 
-	    <!-- SCROLLS -->
-	    <!-- load css and fontawesome-->	    
-	    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Fugaz+One|Ultra" rel="stylesheet">
+	    
+	    
+	    
+	    <!--Optimize CSS Delivery, Deferred CSS -->
+	<noscript id="deferred-styles">
+		<!-- load css and fontawesome-->	    
 	    <link rel="stylesheet" type="text/css" href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
 		<link rel="stylesheet" type="text/css" href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.0.9/font-awesome-animation.min.css'>
 		<!-- <link rel="stylesheet" type="text/css" href="css/animate.css"> -->
 		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
 	    <link rel="stylesheet" href="css/pd.yeap.min.css" />
-	    
-
+    </noscript>
+    <script>
+      var loadDeferredStyles = function() {
+        var addStylesNode = document.getElementById("deferred-styles");
+        var replacement = document.createElement("div");
+        replacement.innerHTML = addStylesNode.textContent;
+        document.body.appendChild(replacement)
+        addStylesNode.parentElement.removeChild(addStylesNode);
+      };
+      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+          webkitRequestAnimationFrame || msRequestAnimationFrame;
+      if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+      else window.addEventListener('load', loadDeferredStyles);
+    </script>
 
 	    <!-- SPELLS  -->
 	    <!-- JSON-LD structured data -->
@@ -65,15 +89,6 @@
 			  }
 			}
 	    </script>
-
-	    <!-- load JS Files: on this 1 js file, I have shrunk angular-route, angular, bootstrap, jQuery and my js files  
-	     -->	    
-	    <script type="text/javascript" src="js/pd.yeap.min.js"></script>
-	    <script type="text/javascript" src="js/parallax.js"></script>
-    <script type="text/javascript" src="js/backgroundVideo.js"></script>
-	    <script type="text/javascript" src="js/jquery-scroll-snap.js"></script> 
-	    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
-	    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.min.js"></script>
 	     
     </head>
 
@@ -90,7 +105,7 @@
 				    <li><a href="#my-account">My Account</a></li>
 				    <li><a href="#support">Support</a></li>
 				    <li><a href="#contact">Contact us</a></li>
-				    <li><a href="//yeapnetwork.com/">Passive Income Referral</a></li>
+				    <li><a href="https://www.yeapnetwork.com/">Passive Income Referral</a></li>
 				  </ul>	  			
 			</div>
 
@@ -110,22 +125,7 @@
 			</div>
         </nav>
 
-		<!--Translate-->
-		<article id="translate">
-			 <!-- <h2>Translate</h2> -->
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-2 col-md-offset-10">
-						<div id="google_translate_element">
-						</div><script type="text/javascript">
-							function googleTranslateElementInit() {
-							  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-							}
-							</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>							
-					</div>
-				</div>
-			</div>  <!-- End Translate -->
-		</article>
+		
 
         <!-- HEADER VIDEO COVER-->
         <header id="video-header">
@@ -224,7 +224,7 @@
 					      	    	<li>Business Plus Website Builder</li>
 					      	    	<li>Search Engine Visibility</li>
 						      	</ul>
-						      	<p><a href="http://yeapnetwork.com">FREE REFERRAL REWARD BONUS PROGRAM</a></p>
+						      	<p><a href="https://www.yeapnetwork.com">FREE REFERRAL REWARD BONUS PROGRAM</a></p>
 						      </div>
 						      <div class="text-center">
 					    		<a href="https://www.secureserver.net/reseller/reseller-bonus-software.aspx?ci=91940&prog_id=yeapnetwork&pl_id=309511" class="btn-lg btn-info" role="button">More</a>	
@@ -258,7 +258,7 @@
         <section id="reseller-plans" class="parallax snap" data-color="#fff" data-img="img/dedicated-server-data-center-tb.jpg" alt="Reseller Plans">
         	<div class="container-fluid">
 	        	<header>
-	        		<h1>Hosting Reseller Plans</h1>
+	        		<h1 class="red-default-hd">Hosting Reseller Plans</h1>
 	        	</header>
 	        	<div class="row panel-group">
 		        	<article class="col-md-8 panel panel-danger" >
@@ -435,7 +435,7 @@
         <!-- Section contact us -->
         <section id="contact" class="aniview snap" data-color="#ADD8E6" av-animation="pulse">
         	<div ng-include="'include/contact.html'"></div>
-			    </div> --> <!-- End font-awesome row -->
+			    </div> <!-- End font-awesome row -->
 			    <div class="clear"></div>
         </section>
 
@@ -460,6 +460,16 @@
 			    <div class="clear"></div>	
         </footer>
 
+    </body>
+
+        <!-- load JS Files: on this 1 js file, I have shrunk angular-route, angular, bootstrap, jQuery and my js files  
+	     -->	    
+	    <script type="text/javascript" src="js/pd.yeap.min.js"></script>
+	    <script type="text/javascript" src="js/parallax.js"></script>
+   	    <script async type="text/javascript" src="js/backgroundVideo.js"></script>
+	    <script async type="text/javascript" src="js/jquery-scroll-snap.js"></script> 
+	    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
+
         <script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -470,34 +480,42 @@
 		  ga('send', 'pageview');
 
 		</script>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-		<!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-589906a18924e926"></script>  		
+		  ga('create', 'UA-92251809-1', 'auto');
+		  ga('send', 'pageview');
 
-    </body>
-    <script type="text/javascript" src="include/login.js"></script>
-    <script type="text/javascript" src="js/jquery.aniview.min.js"></script>
-    
-    
-    <script>
-	    $(document).ready(function(){
-			var options = {
-			    animateThreshold: 100,
-			    scrollPollInterval: 20
-			}
-			$('.aniview').AniView(options);
-		});
-    </script> 
+		</script>
 
-	<script type="text/javascript">
-		// Support Section Video Background
-
-			const backgroundVideo = new BackgroundVideo('.bv-video', {
-			  src: [
-			    'video/support.mp4',
-			    'video/support.ogv'
-			  ]
+		<!-- Go to www.addthis.com/dashboard to customize your tools --> <script async type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-589906a18924e926"></script>  		
+	    <script async type="text/javascript" src="include/login.js"></script>
+	    <script async type="text/javascript" src="js/jquery.aniview.min.js"></script>
+	    
+	    
+	    <script>
+		    $(document).ready(function(){
+				var options = {
+				    animateThreshold: 100,
+				    scrollPollInterval: 20
+				}
+				$('.aniview').AniView(options);
 			});
+	    </script> 
+
+		<script type="text/javascript">
+			// Support Section Video Background
+
+				const backgroundVideo = new BackgroundVideo('.bv-video', {
+				  src: [
+				    'video/support.mp4',
+				    'video/support.ogv'
+				  ]
+				});
 
 
-	</script>
+		</script>
     </html>

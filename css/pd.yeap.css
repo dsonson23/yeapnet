@@ -8024,7 +8024,7 @@ header .fa-caret-down, header .fa-caret-up {
   color: red;
   font-size: 80px;
   border-style: none;
-  margin-top: 2em;
+  margin-top: 1.5em;
 }
 
 section .fa-caret-down, section .fa-caret-up, footer .fa-caret-up {
@@ -8157,9 +8157,19 @@ nav ul {
   background-size: cover;
 }
 
-#translate {
+.phone {
   position: relative;
   top: 53px;
+  font-size: 2em;
+  font-style: bold;
+}
+
+.phone a {
+  color: InfoBackground;
+}
+
+.phone .glyphicon-phone {
+  color: #ff0000;
 }
 
 #home {
